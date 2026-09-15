@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 2025 PRX Annual Report
+title: 2026 PRX Annual Report
 description: >- # this means to ignore newlines until "baseurl:"
   PRX stands at the nexus of innovation that undergirds the future of the public media system. In a year that has heralded the most dramatic shifts in public media since the Public Broadcasting Act of 1967 was signed into law, PRX remains dedicated to building the infrastructure and content portfolio that creators and stations alike need to share meaningful, empathetic, and resilient storytelling. 
-url: https://2025.prx.org # the base hostname & protocol for your site, e.g. http://example.com
+url: https://2026.prx.org # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
