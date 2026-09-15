@@ -1,0 +1,13 @@
+<section class="container content-interlude{%- if content.featured-image -%}-image{%- endif -%}">
+  {%- if content.featured-image -%}
+  <figure class="content-interlude-bg">
+    {% picture show-featured-image {{ content.featured-image.url }} --alt {{ content.featured-image.alt }}  %}
+  </figure>
+  {%- endif -%}
+  {%- if content.show-tiles -%}
+    {% include components/show-tiles.html %}
+  {%- endif -%}
+  <div class="content-wrapper{{- ' ' -}}{{- content.color if content.color -}}">
+    {{ content.content }}
+  </div>
+</section>

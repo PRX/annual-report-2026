@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://podcasts.apple.com/us/podcast/prx-annual-report-playlist/id1783622485",
+    "label": "Apple Podcasts",
+    "svg": "apple.svg"
+  },
+  {
+    "url": "https://open.spotify.com/show/3dQfbAnQEhNPo3ARrsYxs2",
+    "label": "Spotify",
+    "svg": "spotify.svg"
+  },
+  {
+    "url": "https://pca.st/39tca8p4",
+    "label": "PocketCasts",
+    "svg": "pocketcasts.svg"
+  },
+  {
+    "url": "https://overcast.fm/login",
+    "label": "Overcast",
+    "svg": "overcast.svg"
+  },
+  {
+    "url": "https://podcastaddict.com/podcast/prx-annual-report-playlist/5551722",
+    "label": "Podcast Addict",
+    "svg": "podcastaddict.svg"
+  },
+  {
+    "url": "https://tunein.com/search/?query=PRX%20Annual%20Report%20Playlist",
+    "label": "TuneIn",
+    "svg": "tunein.svg"
+  }
+]

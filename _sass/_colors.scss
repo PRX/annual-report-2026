@@ -1,0 +1,73 @@
+$white: #fff;
+$black: #000;
+$gray: #eee;
+
+$blue: #0873A9;
+$navy: #003A57;
+$cyan: #8CD2F4;
+$orange: #FB9306;
+$yellow: #FEC400;
+$violet: #984FA0;
+$red: #CC392F;
+$teal: #05968F;
+
+/// Pallets
+
+$blue-100: tint-color($blue, 80%) !default;
+$blue-200: tint-color($blue, 60%) !default;
+$blue-300: tint-color($blue, 40%) !default;
+$blue-400: tint-color($blue, 20%) !default;
+$blue-500: $blue !default;
+$blue-600: shade-color($blue, 20%) !default;
+$blue-700: shade-color($blue, 40%) !default;
+$blue-800: shade-color($blue, 60%) !default;
+$blue-900: shade-color($blue, 80%) !default;
+
+$navy-100: tint-color($navy, 80%) !default;
+$navy-200: tint-color($navy, 60%) !default;
+$navy-300: tint-color($navy, 40%) !default;
+$navy-400: tint-color($navy, 20%) !default;
+$navy-500: $navy !default;
+$navy-600: shade-color($navy, 20%) !default;
+$navy-700: shade-color($navy, 40%) !default;
+$navy-800: shade-color($navy, 60%) !default;
+$navy-900: shade-color($navy, 80%) !default;
+
+$cyan-100: tint-color($cyan, 80%) !default;
+$cyan-200: tint-color($cyan, 60%) !default;
+$cyan-300: tint-color($cyan, 40%) !default;
+$cyan-400: tint-color($cyan, 20%) !default;
+$cyan-500: $cyan !default;
+$cyan-600: shade-color($cyan, 20%) !default;
+$cyan-700: shade-color($cyan, 40%) !default;
+$cyan-800: shade-color($cyan, 60%) !default;
+$cyan-900: shade-color($cyan, 80%) !default;
+
+$orange-100: tint-color($orange, 80%) !default;
+$orange-200: tint-color($orange, 60%) !default;
+$orange-300: tint-color($orange, 40%) !default;
+$orange-400: tint-color($orange, 20%) !default;
+$orange-500: $orange !default;
+$orange-600: shade-color($orange, 20%) !default;
+$orange-700: shade-color($orange, 40%) !default;
+$orange-800: shade-color($orange, 60%) !default;
+$orange-900: shade-color($orange, 80%) !default;
+
+$yellow-100: tint-color($yellow, 80%) !default;
+$yellow-200: tint-color($yellow, 60%) !default;
+$yellow-300: tint-color($yellow, 40%) !default;
+$yellow-400: tint-color($yellow, 20%) !default;
+$yellow-500: $yellow !default;
+$yellow-600: shade-color($yellow, 20%) !default;
+$yellow-700: shade-color($yellow, 40%) !default;
+$yellow-800: shade-color($yellow, 60%) !default;
+$yellow-900: shade-color($yellow, 80%) !default;
+
+$cyan-a-10: rgba($cyan, 0.1);
+
+$orange-a-10: rgba($orange, 0.1);
+
+$yellow-a-10: rgba($yellow, 0.1);
+
+$border-color: $navy;
+$base-text-color: rgba($white, 0.75);

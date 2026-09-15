@@ -1,0 +1,2 @@
+import{p as r,b as t}from"./p-Dqx6Rc4F.js";export{s as setNonce}from"./p-Dqx6Rc4F.js";import{g as p}from"./p-DQuL1Twl.js";var o=()=>{const s=import.meta.url;const t={};if(s!==""){t.resourcesUrl=new URL(".",s).href}return r(t)};o().then((async r=>{await p();return t([["p-4c18511f",[[262,"prx-audio-quote",{src:[1],transcriptUrl:[1,"transcript-url"],playing:[32],progress:[32]}],[257,"prx-bg-aurora",{colorStops:[16],amplitude:[2],blend:[2],speed:[2],time:[2]}]]]],r)}));
+//# sourceMappingURL=web-components.esm.js.map

@@ -1,0 +1,14 @@
+.footer {
+  min-height: auto;
+  margin-left: var(--nav-expanded);
+  text-align: left;
+
+  p {
+    font-size: 0.875rem
+  }
+}
+
+.footer-wrapper {
+  max-width: 800px;
+  margin-inline: auto;
+}

@@ -1,0 +1,26 @@
+<div class="info-tile-grid {{ include.class -}}">
+{%- if include.heading -%}
+  <h2>{{ include.heading }}</h2>
+{%- endif -%}
+{%- for info_tile in info_tiles -%}
+  {%- assign styles = nil -%}
+  {%- assign attrs = nil -%}
+  {%- for position in info_tile.positions -%}
+    {%- if position.breakpoint -%}
+      {%- capture styles %}{{ styles }}--info-tile--position--{{- position.breakpoint -}}: {{ position.value }};{% endcapture -%}
+    {%- else -%}
+      {%- capture styles %}{{ styles }}--info-tile--position: {{ position.value }};{% endcapture -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if styles -%}
+    {%- capture attrs %} style="{{- styles -}}"{% endcapture -%}
+  {%- endif -%}
+  {%- if info_tile.color -%}
+    {%- capture attrs %}{{ attrs }} data-color="{{- info_tile.color -}}"{% endcapture -%}
+  {%- endif -%}
+  <div class="info-tile"{{ attrs }}>
+    <h3>{{ info_tile.heading }}</h3>
+    <p>{{ info_tile.description }}</p>
+  </div>
+{%- endfor -%}
+</div>

@@ -1,0 +1,19 @@
+.financials {
+  display: grid;
+  column-gap: 4rem;
+  row-gap: 4rem;
+  max-width: 1600px;
+  margin-inline: auto;
+
+  @container (width > #{map-get($info-tile-grid-breakpoints, 'md')}) {
+    display: flex;
+    gap: 3rem;
+    align-items: start;
+    width: 100%;
+  }
+}
+
+.info-tile-grid {
+  flex-grow: 1;
+  width: 100%;
+}

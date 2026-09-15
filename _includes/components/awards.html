@@ -1,0 +1,28 @@
+{% assign max_item_count = site.data.awards | size %}
+<div class="awards-press-wrapper">
+  <aside class="awards-group" data-link-type="awards">
+    <header>
+      <h3>Awards Highlights</h3>
+    </header>
+    <ul>
+      {% for award in site.data.awards %}
+      <li>
+        <a href="{{ award.link }}">{{ award.label }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <aside class="press-group" data-link-type="press">
+    <header>
+      <h3>Press Highlights</h3>
+    </header>
+    <ul>
+      {% for press in site.data.press %}
+      <li>
+        <a href="{{ press.link }}">{{ press.label }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>

@@ -1,0 +1,17 @@
+<div class="container violet">
+  <div class="controls">
+    <h2>Our Reach in 2025</h2>
+    <p>This map displays PRX's impact on broadcast, podcast, and public media technology.</p><p>Click the layer buttons to filter by type, or click on any marker to see more information.</p>
+
+    <div class="layer-controls">
+      <button class="layer-btn active" data-layer="all">All Locations</button>
+      <button class="layer-btn" data-layer="broadcast">Broadcast Programming</button>
+      <button class="layer-btn" data-layer="podcast">U.S. Podcast Downloads</button>
+      <button class="layer-btn" data-layer="technology">Technology</button>
+      <button class="layer-btn" data-layer="voices">{% include svg/icons/heart-handshake.svg %}Supporters</button>
+    </div>
+    <h3 style="text-align: center; margin-bottom: 10px;"><span id="status-indicator" class="status-indicator status-loading">Loading...</span></h3>
+  </div>
+
+  <div id="map"></div>
+</div>

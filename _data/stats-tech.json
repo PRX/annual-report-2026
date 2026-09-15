@@ -1,0 +1,92 @@
+[
+  {
+    "heading": "332,135,476",
+    "description": "episodes were downloaded across Dovetail-hosted shows.",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "99",
+    "description": "new podcasts were added to Dovetail.",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / span 3 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "503,506,765",
+    "description": "paid ad impressions were delivered by Dovetail, generating revenue for Dovetail users.",
+    "type": "this-year",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / span 2 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "6,087,294,266",
+    "description": "episodes have been downloaded across Dovetail-hosted shows.",
+    "type": "all-time",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "614",
+    "description": "podcasts have been hosted on Dovetail.",
+    "type": "all-time",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / span 3 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "2,471,311,989",
+    "description": "paid ad impressions have been delivered by Dovetail, generating revenue for Dovetail users.",
+    "type": "all-time",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / span 2 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  }
+]

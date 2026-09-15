@@ -1,0 +1,15 @@
+<li class="menu-item" role="presentation">
+  <a
+    href="{{ include.href }}"
+    class="menu-link"
+    role="menuitem"
+  >
+    {%- if include.icon -%}
+    <span class="icon">
+      {%- capture icon_path %}svg/icons/{{ include.icon }}.svg{% endcapture -%}
+      {% include {{ icon_path }} %}
+    </span>
+    {%- endif -%}
+    <span>{{ include.label }}</span>
+  </a>
+</li>

@@ -1,0 +1,62 @@
+[
+  {
+    "heading": "73,000",
+    "description": "fans subscribed to Radiotopia's The Citizen newsletter.",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 2 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "33",
+    "description": "shows were part of the Radiotopia network with 18 season or special series launches.",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "47,336,000",
+    "description": "episodes were downloaded by listeners across the Radiotopia network.",
+    "type": "this-year",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "7,000+",
+    "description": "supporters helped independent podcasts and extraordinary storytelling flourish.",
+    "type": "this-year",
+    "color": "navy",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "3 / 7 / span 2 / -1"
+      }
+    ]
+  }
+]

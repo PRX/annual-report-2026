@@ -1,0 +1,206 @@
+// inspiration: https://codepen.io/Schepp/pen/WNbQByE
+:root {
+  // scroll-padding-block: 5svh;
+}
+
+.carousel {
+  --_carousel--accent--color1: var(--welcome-image--accent--color1, #{$yellow});
+  --_carousel--accent--color2: var(--welcome-image--accent--color2, #{$orange});
+
+  position: relative;
+  display: grid;
+
+  perspective: 100px;
+  box-sizing: border-box;
+
+  margin-block: 3rem;
+
+  border-radius: 20px;
+
+  ol, li {
+    list-style: none;
+  }
+}
+
+.carousel__viewport {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+  position: relative;
+  display: grid;
+  grid-auto-rows: 1fr;
+  height: 80vh;
+  max-width: 100%;
+  overflow-y: clip;
+  overflow-x: scroll;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  border-radius: 0.5rem;
+
+  filter: drop-shadow(0.25rem 0.5rem 0.5rem rgba($navy, 0.5));
+
+  &::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    display: none;
+  }
+}
+
+.carousel__slides {
+  container-name: carousel-viewport;
+  container-type: size;
+
+  counter-reset: item;
+
+  display: flex;
+  column-gap: 2rem;
+
+  padding: 0;
+  margin: 0;
+}
+
+.carousel__slide {
+  counter-increment: item;
+
+  scroll-snap-align: center;
+  scroll-margin-block-start: 10vh;
+
+  position: relative;
+
+  height: 100cqh;
+  aspect-ratio: 4 / 3;
+
+  padding: 0;
+  margin: 0;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 0.5rem;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.carousel__slide-link {
+  position: absolute;
+  inset: 0;
+
+  :target > & {
+    display: none;
+  }
+}
+
+.carousel__navigation {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  left: 0;
+  padding-block-start: 0.5rem;
+}
+
+.carousel__navigation-list {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.carousel__navigation-item {
+  display: grid;
+  background-color: $navy;
+  padding: 0.25rem;
+  border-radius: 100vw;
+}
+
+.carousel__navigation-button {
+  transition-property: width, background-color;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  display: inline-block;
+
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: inherit;
+
+  &:where(:hover, :focus-visible) {
+    background-color: #{rgba($cyan, 0.3)};
+  }
+}
+
+@supports not (scroll-marker-group: after) {
+  $max-carousel-slides: 11; // Change this to the number of slides in he longest carousel.
+
+  @for $i from 1 through $max-carousel-slides {
+    .carousel__viewport:has(.carousel__slide:nth-of-type(#{$i}):target) {
+      & + .carousel__navigation {
+        .carousel__navigation-item:nth-of-type(#{$i}) {
+          .carousel__navigation-button {
+            width: 3rem;
+            background-color: $cyan;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@supports (scroll-marker-group: after) {
+  .carousel__slide-link,
+  .carousel__navigation {
+    display: none;
+  }
+
+  .carousel__viewport {
+    scroll-marker-group: after;
+
+
+    &::scroll-marker-group {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      top: calc(100% + 1rem);
+      width: 100%;
+    }
+  }
+
+  .carousel__slide {
+
+    &::scroll-marker {
+      content: "";
+      transition-property: width, background-color;
+      transition-duration: 150ms;
+      transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+      display: inline-block;
+
+      width: 1rem;
+      height: 1rem;
+
+      background-color: $navy;
+
+      border-width: 0.25rem;
+      border-style: solid;
+      border-color: $navy;
+      border-radius: 100vw;
+
+      &:hover {
+        background-color: rgba($cyan, 0.5);
+      }
+
+      &:target-current {
+        width: 3rem;
+        background-color: $cyan;
+      }
+    }
+
+  }
+}

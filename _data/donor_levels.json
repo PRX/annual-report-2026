@@ -1,0 +1,77 @@
+[
+  {
+    "level": "champion",
+    "label": "Champions:",
+    "range_min": "100,000",
+    "type": "individual"
+  },
+  {
+    "level": "transformer",
+    "label": "Transformers:",
+    "range_min": "50,000",
+    "range_max": "99,999",
+    "type": "individual"
+  },
+  {
+    "level": "changemaker",
+    "label": "Changemakers:",
+    "range_min": "25,000",
+    "range_max": "49,999",
+    "type": "individual"
+  },
+  {
+    "level": "ambassador",
+    "label": "Ambassadors:",
+    "range_min": "10,000",
+    "range_max": "24,999",
+    "type": "individual"
+  },
+  {
+    "level": "leader",
+    "label": "Leaders:",
+    "range_min": "5,000",
+    "range_max": "9,999",
+    "type": "individual"
+  },
+  {
+    "level": "creator",
+    "label": "Creators:",
+    "range_min": "2,500",
+    "range_max": "4,999",
+    "type": "individual"
+  },
+  {
+    "level": "advocate",
+    "label": "Advocates:",
+    "range_min": "1,000",
+    "range_max": "2,499",
+    "type": "individual"
+  },
+  {
+    "level": "institution-1mil",
+    "label": "Institutions:",
+    "range_min": "1,000,000+",
+    "type": "institution"
+  },
+  {
+    "level": "institution-250",
+    "label": "Institutions:",
+    "range_min": "250,000",
+    "range_max": "999,999",
+    "type": "institution"
+  },
+  {
+    "level": "institution-100",
+    "label": "Institutions:",
+    "range_min": "100,000",
+    "range_max": "249,999",
+    "type": "institution"
+  },
+  {
+    "level": "institution-25",
+    "label": "Institutions:",
+    "range_min": "25,000",
+    "range_max": "99,999",
+    "type": "institution"
+  }
+]

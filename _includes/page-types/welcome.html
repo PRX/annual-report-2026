@@ -1,0 +1,66 @@
+<section id="{{ welcome.link.anchor | default: welcome.slug }}" class="container welcome teal">
+  <div class="welcome-header">
+    <h2 class="welcome-title">{{ welcome.title }}</h2>
+    {%- if welcome.quote -%}
+    <div class="welcome-quote">
+      {% include components/quote.html
+        text=welcome.quote.text
+        citation=welcome.quote.citation
+        image=welcome.quote.image
+        alt=welcome.quote.alt
+      %}
+    </div>
+    {%- endif -%}
+  </div>
+  <div class="welcome-main">
+    <div class="welcome-main--layout">
+      <div class="welcome-sidebar">
+        <div class="welcome-sidebar--layout">
+          {%- if welcome.image -%}
+          <div class="welcome-image">
+            {% picture {{ welcome.image.url }} --alt {{ welcome.image.alt }}  %}
+          </div>
+          {%- endif -%}
+          {%- if welcome.audio -%}
+          <div class="welcome-audio">
+            {% include components/audio-inline.html
+              url=welcome.audio.url
+              title=welcome.audio.title
+            %}
+            <button type="button" class="welcome-audio--button">
+              <span class="play-icon" aria-label="Play"></span>
+              <span class="welcome-audio--button--title">{{welcome.audio.title}}</span>
+            </button>
+            <div class="welcome-audio--controls">
+              <span class="welcome-audio--slider">
+                <input id="progress-bar" type="range" defaultValue="0" min="0" max="1" step="0.01" aria-label="Player Progress" />
+              </span>
+            </div>
+          </div>
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="welcome-content">
+        {{ welcome.content }}
+      </div>
+    </div>
+  </div>
+  {%- if welcome.donor-quote or welcome.featured-image -%}
+  <div class="welcome-footer">
+    {%- if welcome.donor-quote -%}
+    <div class="welcome-donor-quote">
+      {% include components/quote.html
+        text=welcome.donor-quote.text
+        citation=welcome.donor-quote.citation
+      %}
+    </div>
+    {%- endif -%}
+
+    {%- if welcome.featured-image -%}
+    <figure class="welcome-featured-image">
+      {% picture welcome-featured-image {{ welcome.featured-image.url }} --alt {{ welcome.featured-image.alt }}  %}
+    </figure>
+    {%- endif -%}
+  </div>
+  {%- endif -%}
+</section>

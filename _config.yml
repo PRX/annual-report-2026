@@ -1,0 +1,101 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: 2025 PRX Annual Report
+description: >- # this means to ignore newlines until "baseurl:"
+  PRX stands at the nexus of innovation that undergirds the future of the public media system. In a year that has heralded the most dramatic shifts in public media since the Public Broadcasting Act of 1967 was signed into law, PRX remains dedicated to building the infrastructure and content portfolio that creators and stations alike need to share meaningful, empathetic, and resilient storytelling. 
+url: https://2025.prx.org # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll_picture_tag
+
+sass:
+  sass_dir: _sass
+  # style: compressed
+
+permalink: pretty
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+    line_numbers: false
+
+# Guideline: https://www.digitalocean.com/community/tutorials/jekyll-compress-html0
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  startings: []
+  blanklines: true
+  profile: false
+  # ignore:
+  #   envs: all
+
+sass:
+  style: compressed
+
+# Picture plugin configuration: https://rbuchberger.github.io/jekyll_picture_tag/users/configuration/
+picture:
+  source: "assets"
+  output: "assets/generated"
+  suppress_warnings: true
+  ignore_missing_images: true
+
+# Collections: https://jekyllrb.com/docs/collections/
+collections_dir: collections
+collections:
+  welcome:
+    order:
+      - ceo-letter.html
+  content:
+    order:
+      - transition-backbone.md
+      - empowering-stations.md
+      - cta-station-support.md
+      - cultivating-sound.md
+      - transition-storytelling.md
+      - radiotopia.md
+      - cta-donation.md
+      - productions.md
+      - building-peer-networks.md
+      - transition-producers-creators.md
+      - technology.md
+      - leading-values.md
+      - cta-donation-values.md
+      - resilience.md
+      - awards-press.md
+      - transition-supporters.md
+      - donor-list.md
+      - finances.md

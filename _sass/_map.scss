@@ -1,0 +1,186 @@
+#map {
+  --_map--accent--color1: var(--welcome-image--accent--color1, #{$yellow});
+  --_map--accent--color2: var(--welcome-image--accent--color2, #{$cyan});
+
+  height: 600px;
+  width: 100%;
+  border: 1px solid $navy;
+  border-radius: 10px;
+  opacity: 0.7;
+
+  width: 100%;
+  box-shadow: 10px -10px 0px 0px var(--_map--accent--color1), -10px 10px 0px 0px var(--_map--accent--color2);
+}
+
+.controls {
+  text-align: center;
+
+  p {margin-bottom: 0.5rem;}
+}
+
+.layer-controls {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.layer-btn {
+  background: $blue;
+  color: $white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+
+  svg path {stroke: $white;}
+}
+
+.layer-btn:hover {
+  background: $blue-200;
+  color: $navy;
+
+  svg path {stroke: $navy;}
+}
+
+.layer-btn.active {
+  background: $orange;
+  color: $navy;
+
+  svg path {stroke: $navy;}
+}
+
+.layer-btn.active:hover {
+  background: $orange-200;
+
+  svg path {stroke: $navy;}
+}
+
+.popup-content {
+  line-height: 1.6;
+}
+
+.popup-title {
+  color: $navy;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.popup-detail {
+  color: $blue-700;
+  margin: 5px 0;
+}
+
+.legend {
+  background: rgba(255,255,255,0.95);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid $white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.info-panel {
+  background: rgba(8, 3, 71, 0.95);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.info-panel h3 {
+  color: $white;
+  margin-top: 0;
+}
+
+.data-source {
+  background: rgba(0,137,189,0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border-left: 4px solid $blue;
+}
+
+.data-source h4 {
+  color: $blue;
+  margin-top: 0;
+}
+
+.data-source code {
+  background: rgba(0,137,189,0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.loading-message {
+  text-align: center;
+  color: $blue;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.error-message {
+  background: $red;
+  color: $white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.status-indicator {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.7em;
+  margin-left: 10px;
+}
+
+.status-loading {
+  background: $orange;
+  color: $white;
+}
+
+.status-success {
+  background: none;
+  color: $white;
+}
+
+.status-error {
+  background: $red;
+  color: $white;
+}
+
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-scale,
+.leaflet-control-attribution {
+  filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
+// ensure the Ukrainian flag is displayed in actual colors:
+.leaflet-container div.leaflet-control-attribution {
+  background: rgba(0,0,0,0.6);
+  color: #ddd;
+  filter: invert(0) hue-rotate(0deg) brightness(100%) contrast(100%);
+}

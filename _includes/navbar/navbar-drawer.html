@@ -1,0 +1,64 @@
+<nav id="nav-drawer" class="nav-drawer" aria-labelledby="nav-toggle">
+  <ul class="menu" role="menu">
+    {% include components/menu-item.html
+      href="#intro"
+      label="Introduction"
+      color="white"
+      icon="hand"
+    %}
+
+    {% for welcome in site.welcome %}
+      {% assign href = welcome.link.anchor | default: content.slug | prepend: '#' %}
+      {% assign label = welcome.link.label | default: welcome.title %}
+      {% assign icon = welcome.link.icon %}
+      {% include components/menu-item.html
+        href=href
+        label=label
+        color="white"
+        icon=icon
+      %}
+    {% endfor %}
+
+    {% include components/menu-item.html
+      href="#map-container"
+      label="Our Reach"
+      color="white"
+      icon="globe"
+    %}
+
+    <hr>
+
+    {% for content in site.content %}
+      {% if content.menu-group == '1' %}
+        {% include navbar/navbar-menu-group.html %}
+      {% endif %}
+    {% endfor %}
+
+    <hr>
+
+    {% for content in site.content %}
+      {% if content.menu-group == '2' %}
+        {% include navbar/navbar-menu-group.html %}
+      {% endif %}
+    {% endfor %}
+
+    <hr>
+
+    {% include components/menu-item.html
+      href="#playlist"
+      label="Podcast Playlist"
+      color="yellow"
+      icon="list-video"
+      aria-label="hidden"
+      slug=playlist
+    %}
+
+    {% include components/menu-item.html
+      href="?campaign=733266&c_src=AR-2025&c_src2=menu"
+      color="cyan"
+      icon="heart-handshake"
+      aria-label="hidden"
+      label="Donate"
+    %}
+  </ul>
+</nav>

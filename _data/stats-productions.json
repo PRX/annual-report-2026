@@ -1,0 +1,62 @@
+[
+  {
+    "heading": "23",
+    "description": "partner organizations entrusted PRX Productions with their concepts for audio storytelling.",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 2 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "27",
+    "description": "programs were brought to life with PRX Productions.",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "10,000,000",
+    "description": "episodes were downloaded across this year's PRX Productions portfolio.",
+    "type": "this-year",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "15",
+    "description": "subject areas were represented in our programming, including music, business, philosophy, technology, family, and medicine.",
+    "type": "this-year",
+    "color": "navy",
+    "positions": [
+      {
+        "value": "auto / 1 / auto / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "3 / 7 / span 2 / -1"
+      }
+    ]
+  }
+]

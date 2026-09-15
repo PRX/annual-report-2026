@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/web-components.esm.js"></script>
+    <script nomodule src="/build/web-components.js"></script>
+    <style>
+      body, html {
+        color-scheme: dark;
+
+        padding: 0;
+        margin: 0;
+
+        font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+        font-weight: normal;
+      }
+      #aurora {
+        display: grid;
+        height: 100vh;
+        background-color: black;
+
+        & > * {
+          grid-column: 1 / -1;
+          grid-row: 1 / -1;
+        }
+      }
+      #audio-quote {
+        place-self: center;
+        position: relative;
+        display: grid;
+        gap: 3rem;
+        z-index: 1;
+        max-width: 60ch;
+
+        /* --prx-audio-quote--word--color--playing: cyan;
+        --prx-audio-quote--word--color--active: yellow;
+        --prx-audio-quote--word--color--heard: orange; */
+      }
+    </style>
+  </head>
+  <body>
+    <section id="aurora">
+      <prx-bg-aurora></prx-bg-aurora>
+      <div id="audio-quote">
+        <prx-audio-quote
+          src="https://f.prxu.org/9003/0d03d678-c4a6-4618-934c-93267091017e/8dbacf37-4a3d-49eb-8371-71b0eb0f03f1.mp3"
+          transcript-url="https://f.prxu.org/9003/0d03d678-c4a6-4618-934c-93267091017e/transcripts/b1b8dc55-9c78-4026-aee9-0c6353fd3205/ARFY25_Audio_II.BC.1__2_.vtt"
+        >
+          <p>To me, it seems like the <i>tone and the tenor</i> with the conversations we have with stations — it seems to be finding new ways to partner with stations and understanding, like, what they're <em>trying to do</em>. And, we have a lot of things we can offer. We can talk about programming, we can talk about helping them get their local content on the Exchange, which they can do for free. If they're trying to make moves in podcasting, we can connect them.</p><p>We can set up a demo of Dovetail. Or we can just even set up just a conversation to, to learn about their podcasting journey and ask and answer questions they may have about the medium. With a lot of these stations, I'm not always coming at them with programming. Our conversations are multidimensional and it's always about a real, a true partnership.</p>
+          <span slot="citation">Ben Cook, Station Services Manager</span>
+        </prx-audio-quote>
+
+        <prx-audio-quote
+          src="https://f.prxu.org/9003/0d03d678-c4a6-4618-934c-93267091017e/8dbacf37-4a3d-49eb-8371-71b0eb0f03f1.mp3"
+        >
+          <p>To me, it seems like the tone and the tenor with the conversations we have with stations — it seems to be finding new ways to partner with stations and understanding, like, what they're trying to do. And, we have a lot of things we can offer. We can talk about programming, we can talk about helping them get their local content on the Exchange, which they can do for free. If they're trying to make moves in podcasting, we can connect them.</p><p>We can set up a demo of Dovetail. Or we can just even set up just a conversation to, to learn about their podcasting journey and ask and answer questions they may have about the medium. With a lot of these stations, I'm not always coming at them with programming. Our conversations are multidimensional and it's always about a real, a true partnership.</p>
+          <span slot="citation">Ben Cook, Station Services Manager</span>
+        </prx-audio-quote>
+
+        <prx-audio-quote
+          src="https://f.prxu.org/9003/2706d3d9-ee7b-42d8-8dc6-58d2708c666a/2905859d-25f7-4e9d-8b57-c7fa30e673d7.mp3"
+          transcript-url="https://f.prxu.org/9003/2706d3d9-ee7b-42d8-8dc6-58d2708c666a/transcripts/4f155ad1-d09a-4cd8-bdb1-ca82913488e2/VI-Technology-Andrew-Kuklewicz-1.vtt"
+        >
+          <p>We, by being a nonprofit, have the ability to say, actually we wanna draw a different line based on our values. Our goal is to pass money back to the producers in the system and actually keep as thin kind of budget of things as we can. That is an alignment of interests that because of being a nonprofit in the public media space and our very, you know, well declared mission around that. We're all on the same side within public media in a way that no other company that's building a platform for this can say that.</p>
+          <span slot="citation">Andrew Kuklewicz, PRX CTO</span>
+        </prx-audio-quote>
+      </div>
+    </section>
+
+    <script>
+      document.querySelector('prx-bg-aurora').colorStops = ['#984FA0', '#FEC400', '#8CD2F4'];
+    </script>
+  </body>
+</html>

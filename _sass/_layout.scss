@@ -1,0 +1,66 @@
+@property --nav-expanded {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $navy;
+  color: $base-text-color;
+  font-family: 'Montserrat', sans-serif;
+  transition: --nav-expanded var(--transition-speed) ease;
+
+  &[data-menu-open="true"] {
+    overflow: clip;
+  }
+
+  &[data-menu-open="false"] {
+    --nav-expanded: 0;
+  }
+
+  @media (min-width: 768px) {
+      --nav-expanded: calc(250px + 2rem);
+
+    &[data-menu-open="false"] {
+      --nav-expanded: 0;
+    }
+
+    &[data-menu-open="true"] {
+      overflow-y: auto;
+    }
+  }
+}
+
+.layout-content {
+  margin-left: var(--nav-expanded);
+}
+
+.container {
+  container-name: container;
+  container-type: inline-size;
+
+  isolation: isolate;
+  position: relative;
+  min-height: 80vh;
+  place-content: center;
+
+  padding: 3rem;
+
+  color: $white;
+
+  background-image: linear-gradient(to right, transparent, var(--section-color, transparent));
+
+  &.violet {
+    --section-color: #{$violet};
+  }
+
+  &.teal {
+    --section-color: #{$teal};
+  }
+
+  &.red {
+    --section-color: #{$red};
+  }
+}

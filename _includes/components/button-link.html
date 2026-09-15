@@ -1,0 +1,13 @@
+<a
+  href="{{ include.href }}"
+  class="btn {{ include.color }}"
+  {%- if include.aria-label -%} aria-label="{{ include.aria-label }}"{%- elsif include.label -%} aria-label="{{ include.label }}"{%- endif -%}
+>
+  {%- if include.icon -%}
+    {%- capture icon_path %}svg/icons/{{ include.icon }}.svg{% endcapture -%}
+    {% include {{ icon_path }} %}
+  {%- endif -%}
+  {%- if include.label -%}
+    <span class="label">{{ include.label }}</span>
+  {%- endif -%}
+</a>

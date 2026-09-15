@@ -1,0 +1,66 @@
+.btn {
+  --_btn-background-color: var(--btn-background-color, transparent);
+  --_btn-background-color--hover: var(--btn-background-color--hover, rgba(#{$black}, 10%));
+  --_btn-text-color: var(--btn-text-color, #{$navy});
+  --_btn-text-color--hover: var(--btn-text-color--hover, var(--_btn-text-color));
+
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+
+  background-color: var(--_btn-background-color);
+
+  color: var(--_btn-text-color);
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0;
+
+  &:link,
+  &:visited {
+    color: var(--_btn-text-color);
+  }
+
+  cursor: pointer;
+
+  &:active,
+  &:link {
+    color: var(--_btn-text-color);
+  }
+
+  &:hover {
+    background-color: var(--_btn-background-color--hover);
+    color: var(--_btn-text-color--hover);
+  }
+
+  &.text-white {
+    color: $white;
+  }
+
+  &.white {
+    --btn-background-color: #{$white};
+  }
+
+  &.cyan {
+    --btn-background-color: #{$cyan};
+    --btn-background-color--hover: #{mix(white, $cyan, 25%)};
+  }
+
+  &.orange {
+    --btn-background-color: #{$orange};
+    --btn-background-color--hover: #{mix(white, $orange, 25%)};
+  }
+
+  &.yellow {
+    --btn-background-color: #{$yellow};
+    --btn-background-color--hover: #{mix(white, $yellow, 25%)};
+  }
+
+  &.blue {
+    --btn-background-color: #{$blue};
+    --btn-background-color--hover: #{mix(white, $blue, 25%)};
+  }
+}

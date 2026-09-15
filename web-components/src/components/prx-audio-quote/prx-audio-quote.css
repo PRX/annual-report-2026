@@ -1,0 +1,295 @@
+@property --prx-audio-quote--progress {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+
+@property --prx-audio-quote--word--color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--word--color--heard {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--word--color--playing {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--word--color--active {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--cite--color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--button--color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--button--color--hover {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--button--color--playing {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: unset;
+}
+
+@property --prx-audio-quote--button--size {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: unset;
+}
+
+:host {
+  --_word--color: var(--prx-audio-quote--word--color, currentColor);
+  --_word--color--heard: var(--prx-audio-quote--word--color--heard, var(--_word--color));
+  --_word--color--playing: var(--prx-audio-quote--word--color--playing, color(from var(--_word--color--heard) srgb r g b / 0.5));
+  --_word--color--active: var(--prx-audio-quote--word--color--active, hsl(calc(var(--prx-audio-quote--progress) * 360) 100% 60%));
+  --_cite--color: var(--prx-audio-quote--cite--color, currentColor);
+  --_button--color: var(--prx-audio-quote--button--color, var(--_word--color--active));
+  --_button--color--hover: var(--prx-audio-quote--button--color--hover, hsl(from var(--_button--color) h s calc(l / 1.5)));
+  --_button--color--playing: var(--prx-audio-quote--button--color--playing, var(--_button--color));
+  --_button--size: var(--prx-audio-quote--button--size, 2rem);
+
+  transition: --prx-audio-quote--progress 200ms cubic-bezier(0.47, 0, 0.745, 0.715);
+
+  display: block;
+}
+
+blockquote {
+  display: grid;
+  grid-template-columns: var(--_button--size) 1fr;
+  grid-template-rows: 1fr min-content;
+  grid-template-areas:
+    'QUOTE QUOTE'
+    'CITE CITE';
+  gap: 1rem;
+
+  padding: 0;
+  margin: 0;
+
+  > * {
+    margin: 0;
+  }
+}
+
+prx-quote {
+  grid-area: QUOTE;
+
+  position: relative;
+  isolation: isolate;
+
+  quotes: "“" "”" "‘" "’";
+
+  & .word {
+    transition: color 125ms linear;
+    color: var(--_word--color);
+  }
+
+  > :first-child::before {
+    content: open-quote;
+    position: absolute;
+    top: 0;
+    right: calc(100% + 0.25ch);
+  }
+
+  > :last-child::after {
+    content: close-quote;
+  }
+
+  > * {
+    margin: 0;
+
+    & + * {
+      margin-block-start: 1.2em;
+    }
+  }
+}
+
+prx-audio-quote-controls {
+  container-name: controls;
+  container-type: size;
+
+  grid-area: CONTROLS;
+
+  display: grid;
+  grid-template-columns: var(--_button--size);
+  grid-template-rows: calc(max(0px, var(--prx-audio-quote--progress) * 100% - var(--_button--size))) var(--_button--size) auto;
+  grid-template-areas:
+    'BEFORE'
+    'BUTTON'
+    'AFTER';
+  justify-items: center;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 0.25rem;
+
+    border-radius: 100vw;
+  }
+
+  &::before {
+    grid-area: BEFORE;
+
+    margin-block-end: 0.25rem;
+
+    background-color: var(--_word--color--heard);
+  }
+
+  &::after {
+    grid-area: AFTER;
+
+    margin-block-start: 0.25rem;
+
+    background-color: var(--_word--color--playing);
+  }
+}
+
+:host(:has(prx-audio-quote-controls)) {
+  blockquote {
+    grid-template-areas:
+      'CONTROLS QUOTE'
+      'CITE CITE';
+  }
+}
+
+:host(:where([playing]):where([highlight])) {
+  prx-quote {
+    .word {
+      color: var(--_word--color--heard);
+
+      &.active {
+        transition-duration: 0ms;
+        color: var(--_word--color--active);
+      }
+
+      &:not(:where(.heard, .active)) {
+        color: var(--_word--color--playing);
+      }
+    }
+  }
+}
+
+cite {
+  grid-area: CITE;
+  justify-self: end;
+
+  color: var(--_cite--color);
+
+  &::before {
+    content: '\2014\00a0';
+  }
+}
+
+.play-button {
+  grid-area: BUTTON;
+
+  display: grid;
+  align-items: center;
+  width: var(--_button--size);
+  aspect-ratio: 1;
+  z-index: 1;
+
+  padding: 0.5em;
+
+  background: none;
+
+  color: var(--_button--color);
+
+  border: none;
+  border-radius: 100vw;
+
+  cursor: pointer;
+
+  &:is(:hover) {
+    color: var(--_button--color--hover);
+  }
+
+  :where([playing]) & {
+    color: var(--_button--color--playing);
+  }
+}
+
+.play-icon {
+  container-name: icon;
+  container-type: size;
+
+  display: inline-grid;
+  grid-template-rows: 100%; /* Safari: Prevents button from initially spanning all rows. */
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1;
+
+  &::before,
+  &::after {
+    content: '';
+
+    grid-area: 1 / 1 / -1 / -1;
+    display: block;
+  }
+
+  &::before {
+    width: 0;
+    height: 0;
+
+    border-inline-start: 75cqw solid currentColor;
+    border-inline-end: 0 solid currentColor;
+    border-block: 50cqh solid transparent;
+
+    line-height: 0;
+  }
+
+  &::after {
+    display: none;
+    box-sizing: border-box;
+    width: 100cqw;
+    aspect-ratio: 1;
+
+    border-inline-start: 35cqw solid currentColor;
+    border-inline-end: 35cqw solid currentColor;
+    border-block: 0 solid transparent;
+  }
+
+  [playing] & {
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      display: block;
+    }
+  }
+}
+
+.restart-button {
+  grid-area: BEFORE;
+
+  z-index: 1;
+
+  border: none;
+
+  background: none;
+
+  cursor: n-resize;
+}

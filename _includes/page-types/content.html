@@ -1,0 +1,89 @@
+<section id="{{ content.link.anchor | default: content.slug }}" class="container content {{ content.color }}">
+  <div class="content-wrapper">
+    <div class="content-header">
+      <h2 class="content-title">
+        {%- if content.link.icon -%}
+        <span class="icon">
+          {%- capture icon_path %}svg/icons/{{ content.link.icon }}.svg{% endcapture -%}
+          {% include {{ icon_path }} %}
+        </span>
+        {%- endif -%}
+        {{ content.title }}
+      </h2>
+      {%- if content.intro -%}
+      <div class="content-intro">
+        <div class="content-intro--layout">
+          <div class="content-content">
+            {{ content.intro }}
+          </div>
+        </div>
+      </div>
+      {%- endif -%}
+    </div>
+    {%- if content.quotes[0] -%}
+    {%- assign quote = content.quotes[0] -%}
+    <div class="content-quote">
+      {% include components/quote.html
+        text=quote.text
+        citation=quote.citation
+        image=quote.image
+        alt=quote.alt
+        audio=quote.audio
+      %}
+    </div>
+    {%- endif -%}
+    {%- if content.content -%}
+    <div class="content-main">
+      <div class="content-content">
+        {{ content.content }}
+      </div>
+    </div>
+    {%- endif -%}
+
+    {%- if content.quotes[1] -%}
+    {%- assign quote = content.quotes[1] -%}
+    <div class="content-quote">
+      {% include components/quote.html
+        text=quote.text
+        citation=quote.citation
+        image=quote.image
+        alt=quote.alt
+        audio=quote.audio
+      %}
+    </div>
+    {%- endif -%}
+
+    {%- if content.featured-image -%}
+    <figure class="content-featured-image">
+      {% picture show-featured-image {{ content.featured-image.url }} --alt {{ content.featured-image.alt }}  %}
+    </figure>
+    {%- endif -%}
+  </div>
+
+  {%- if content.stats -%}
+  <div class="stats">
+    {% include page-types/stats.html
+      title=content.stats.title
+      file=content.stats.file
+    %}
+  </div>
+  {%- endif -%}
+
+  {%- if content.awards -%}
+    {% include components/awards.html %}
+  {%- endif -%}
+
+  {%- if content.donor-list -%}
+    {% include components/donors.html %}
+  {%- endif -%}
+
+  {%- if content.financials -%}
+    {% include components/financials.html %}
+  {%- endif -%}
+
+  {%- if content.carousel -%}
+    {% include components/carousel.html
+      carousel=content.carousel
+    %}
+  {%- endif -%}
+</section>

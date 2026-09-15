@@ -1,0 +1,61 @@
+.menu {
+  margin: 0;
+  padding: 0;
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: $yellow;
+    background-image: linear-gradient(to right, $cyan, $yellow, $orange, $violet);
+  }
+}
+
+.menu-item {
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background: transparent;
+  border-radius: 0 20px 20px 0;
+  background-repeat: no-repeat;
+  color: $white;
+  text-decoration: none;
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  svg {
+    path {
+      stroke: $cyan;
+    }
+  }
+
+  &:link,
+  &:visited {
+    color: $cyan;
+  }
+
+  &.icon {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background: linear-gradient(to right, $navy, $blue);
+    color: $white;
+
+    svg {
+      path {
+        stroke: $white;
+      }
+    }
+  }
+}

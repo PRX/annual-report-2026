@@ -1,0 +1,27 @@
+<header class="navbar">
+    <nav role="navigation">
+      <button id="nav-toggle" class="btn btn-menu text-white" aria-label="Toggle Menu" aria-expanded="true" aria-controls="nav-drawer">
+        {% include svg/icons/menu.svg %}
+      </button>
+
+      <a href="#top" class="prx-logo" aria-label="Back to the top of the Annual Report">
+        {% include svg/prx-logo-single-color.svg %}
+      </a>
+    </nav>
+    <nav class="navbar-buttons" role="navigation">
+      {% include components/button-link.html
+        href="#playlist"
+        color="yellow"
+        icon="list-video"
+        aria-label="Playlist"
+        label="Playlist"
+      %}
+      {% include components/button-link.html
+        href="?campaign=733266&c_src=AR-2025&c_src2=menu"
+        color="cyan"
+        icon="heart-handshake"
+        aria-label="Donate"
+        label="Donate"
+      %}
+    </nav>
+</header>

@@ -1,0 +1,29 @@
+<section id="playlist" class="container violet">
+  <div class="content-wrapper">
+    <h2>Listen to the 2025 PRX Annual Report Playlist</h2>
+    <p>This podcast playlist includes a handful of our favorite episodes from the past year. You can subscribe to the shows whereever you get your podcasts.</p>
+
+    <nav class="subscribe--nav">
+      <h3>Subscribe wherever you get your podcasts.</h3>
+      <div class="subscribe--list">
+      {% for link in site.data.subscribe_links %}
+        <a href="{{ link.url }}" title="{{ link.label }}" class="subscribe--link">
+          <img src="/assets/img/icons/{{ link.svg }}" alt="{{ link.label }}" />
+        </a>
+      {% endfor %}
+      </div>
+    </nav>
+
+    <div class="playlist-wrapper">
+      <iframe
+        frameborder="0"
+        height="593"
+        width="100%"
+        style="min-width: 300px;"
+        title="2025 PRX Annual Report Podcast Playlist"
+        src="https://play.prx.org/e?se=2025&ac=8CD2F4&ac=FB9306&ac=FEC400&ac=0873A9&sp=all&uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F9003%2Ffeed-rss.xml"
+      ></iframe>
+    </div>
+
+  </div>
+</section>

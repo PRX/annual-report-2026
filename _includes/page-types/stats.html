@@ -1,0 +1,20 @@
+<h2 class="stats--header">{{ include.title }}</h2>
+<div class="financials">
+  {% assign sections_param = include.sections | default: "this-year,all-time" %}
+  {% assign titles_param = include.titles | default: "This Year,All time" %}
+  {% assign sections = sections_param | split: "," %}
+  {% assign titles = titles_param | split: "," %}
+
+  {% for section in sections %}
+    {% assign section_key = section | strip %}
+    {% assign heading = titles[forloop.index0] | default: section_key | strip %}
+    {% assign info_tiles = site.data[include.file] | where: 'type', section_key %}
+    {% if info_tiles and info_tiles != empty %}
+      {% assign class_name = include.class | default: "financial-section" %}
+      {% include components/info-tiles.html
+        heading=heading
+        class=class_name
+      %}
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  {% include app/meta.html %}
+
+  {%- feed_meta -%}
+
+  {%- include app/head.html -%}
+
+</head>
+
+<body>
+  {% include navbar/navbar.html %}
+  {% include navbar/navbar-drawer.html %}
+  {% include page-types/hero.html %}
+  <div class="layout-wrapper">
+     <main id="layout-content" class="layout-content">
+
+      <section id="intro" class="container violet">
+        <div class="content-wrapper">
+          {{ content }}
+        </div>
+      </section>
+
+      <div class="welcomes">
+        {% for welcome in site.welcome %}
+          {% include page-types/welcome.html %}
+        {% endfor %}
+      </div>
+
+      <div id="map-container" class="map">
+        {% include page-types/map.html %}
+      </div>
+
+      <div class="contents">
+        {% for content in site.content %}
+          {% if content.content-type == 'content-interlude' %}
+            {% include page-types/content-interlude.html %}
+          {% else %}
+            {% include page-types/content.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      {% include page-types/playlist.html %}
+
+    </div>
+
+    {% include app/footer.html %}
+  </div>
+</body>
+</html>

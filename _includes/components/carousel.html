@@ -1,0 +1,25 @@
+<div class="carousel" aria-label="Gallery">
+  <div class="carousel__viewport">
+    <ol class="carousel__slides">
+      {% for slide in include.carousel %}
+      <li id="carousel__slide{{ forloop.index }}"
+          tabindex="0"
+          class="carousel__slide">
+          <a href="#carousel__slide{{ forloop.index }}"
+           class="carousel__slide-link" aria-label="Go to slide {{ forloop.index }}"></a>
+          {% picture show-featured-image {{ slide.image.src }} --alt {{ slide.image.alt }} %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      {% for slide in include.carousel %}
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide{{ forloop.index }}"
+           class="carousel__navigation-button" aria-label="Go to slide {{ forloop.index }}"></a>
+      </li>
+      {% endfor %}
+    </ol>
+  </aside>
+</div>

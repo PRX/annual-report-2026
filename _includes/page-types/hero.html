@@ -1,0 +1,24 @@
+<div id="top" class="hero container violet">
+  <figure class="hero-image">
+    {% picture hero-card img/hero/hero-map-dark-ultrawide.png --alt "Map of the United States with pinpoints showing services provided to public media stations"  %}
+    <div id="hero-aurora">
+      <prx-bg-aurora speed="0.333" blend="1"></prx-bg-aurora>
+      <script>
+        document.querySelector('prx-bg-aurora').colorStops = ['#984FA0', '#FEC400', '#8CD2F4'];
+      </script>
+    </div>
+  </figure>
+  <div class="content-wrapper">
+    <h1>
+      <span class="hero-line logo">
+        {% include svg/prx-logo-single-color.svg %}
+      </span>
+      <span class="hero-line">
+        <span class="cyan">2025</span> <span class="yellow">Annual</span> <span class="orange">Report</span>
+      </span>
+      <span class="hero-line">
+        <em>System</em> Impact
+      </span>
+    </h1>
+  </div>
+</div>

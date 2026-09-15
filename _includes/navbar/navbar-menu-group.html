@@ -1,0 +1,10 @@
+{% assign href = content.link.anchor | default: content.slug | prepend: '#' %}
+{% assign label = content.link.label | default: content.title %}
+{% assign icon = content.link.icon %}
+
+{% include components/menu-item.html
+  href=href
+  label=label
+  icon=icon
+  aria-label="hidden"
+%}

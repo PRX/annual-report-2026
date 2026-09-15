@@ -1,0 +1,9 @@
+<div class="mosaic-container">
+  {% for cell in mosaic %}
+    <div class="mosaic-item" style="--mosaic-item--position: {{ cell.position }}" data-color="{{ cell.color }}">
+      {%- if cell.image -%}
+      {% picture mosaic-image {{ cell.image.src }} --alt {{ cell.image.alt }}  %}
+      {%- endif -%}
+    </div>		
+  {% endfor %}
+</div>

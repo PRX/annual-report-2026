@@ -1,0 +1,47 @@
+[
+  {
+    "heading": "99%",
+    "description": "of the U.S. could hear PRX broadcast programming, from Barrow, Alaska, to Hilo, Hawai'i. (Plus, listeners across Canada.)",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "20+",
+    "description": "broadcast programs were distributed by PRX, including some of the newest and fastest-growing shows in public radio.",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / span 3 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "5,300,000",
+    "description": "U.S. listeners heard PRX broadcast programming each week — growth that bucks the trend of declining public radio audiences.",
+    "type": "this-year",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / span 2 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  }
+]

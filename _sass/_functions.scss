@@ -1,0 +1,54 @@
+//// Array Helpers
+
+// Return the last item in a list, or `null` when list is empty or missing.
+@function last($list) {
+  @if not $list or length($list) == 0 {
+    @return null;
+  }
+  @return nth($list, length($list));
+}
+
+
+//// Grid helpers
+
+// Get the position of a list item based on a grid col and row at a given number of columns.
+@function grid-n($column-size, $col, $row) {
+  @if index($column-size $col $row, 0) {
+    @return null;
+  }
+
+  @return $col + ($column-size * ($row - 1));
+}
+
+// Return a list item at a grid position.
+@function grid-at($list, $column-size, $col, $row) {
+  @if not $list or length($list) == 0 {
+    @return null;
+  }
+
+  $n: grid-n($column-size, $col, $row);
+
+  @if not $n or $n < 1 or $n > length($list) {
+    @return null;
+  }
+
+  @return nth($list, $n);
+}
+
+
+//// Colors
+
+// Tint a color: mix a color with white
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+// Shade a color: mix a color with black
+@function shade-color($color, $weight) {
+  @return mix(black, $color, $weight);
+}
+
+// Shade the color if the weight is positive, else tint it
+@function shift-color($color, $weight) {
+  @return if($weight > 0, shade-color($color, $weight), tint-color($color, -$weight));
+}

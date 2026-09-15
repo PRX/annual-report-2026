@@ -1,0 +1,80 @@
+.awards-press-wrapper {
+  @media (min-width: 768px) {
+    display: flex;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .awards-group {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .press-group {
+    flex-grow: 2;
+    flex-basis: 0;
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0;
+      grid-row-gap: 0;
+    }
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    letter-spacing: normal;
+    color: $white;
+
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-width: 1;
+    border-image-source:  linear-gradient(to right, $violet, $cyan, $yellow, $orange, $red);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+
+      a {
+        --_link-color: #{$cyan};
+
+        box-decoration-break: clone;
+        padding: 0.125em 0.25em;
+
+        border-radius: 0.25em;
+
+        color: var(--_link-color);
+        text-decoration: none;
+
+        line-height: 1;
+
+        &:where(:hover, :focus-visible) {
+          color: $navy;
+          background-color: var(--_link-color);
+        }
+      }
+
+      &:nth-of-type(3n+2) {
+        a {
+          --_link-color: #{$orange};
+        }
+      }
+
+      &:nth-of-type(3n+3) {
+        a {
+          --_link-color: #{$yellow};
+        }
+      }
+    }
+  }
+}
