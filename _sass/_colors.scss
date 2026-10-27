@@ -1,6 +1,7 @@
 $white: #fff;
 $black: #000;
 $gray: #eee;
+$surface: #F7FAFF;
 
 $blue: #0873A9;
 $navy: #003A57;
@@ -63,6 +64,26 @@ $yellow-700: shade-color($yellow, 40%) !default;
 $yellow-800: shade-color($yellow, 60%) !default;
 $yellow-900: shade-color($yellow, 80%) !default;
 
+$violet-100: tint-color($violet, 80%) !default;
+$violet-200: tint-color($violet, 60%) !default;
+$violet-300: tint-color($violet, 40%) !default;
+$violet-400: tint-color($violet, 20%) !default;
+$violet-500: $violet !default;
+$violet-600: shade-color($violet, 20%) !default;
+$violet-700: shade-color($violet, 40%) !default;
+$violet-800: shade-color($violet, 60%) !default;
+$violet-900: shade-color($violet, 80%) !default;
+
+$teal-100: tint-color($teal, 80%) !default;
+$teal-200: tint-color($teal, 60%) !default;
+$teal-300: tint-color($teal, 40%) !default;
+$teal-400: tint-color($teal, 20%) !default;
+$teal-500: $teal !default;
+$teal-600: shade-color($teal, 20%) !default;
+$teal-700: shade-color($teal, 40%) !default;
+$teal-800: shade-color($teal, 60%) !default;
+$teal-900: shade-color($teal, 80%) !default;
+
 $cyan-a-10: rgba($cyan, 0.1);
 
 $orange-a-10: rgba($orange, 0.1);
@@ -70,4 +91,4 @@ $orange-a-10: rgba($orange, 0.1);
 $yellow-a-10: rgba($yellow, 0.1);
 
 $border-color: $navy;
-$base-text-color: rgba($white, 0.75);
+$base-text-color: $navy;

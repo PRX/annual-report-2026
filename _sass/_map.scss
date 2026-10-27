@@ -139,7 +139,7 @@
 }
 
 .error-message {
-  background: $red;
+  background: $orange-700;
   color: $white;
   padding: 15px;
   border-radius: 10px;
@@ -162,11 +162,11 @@
 
 .status-success {
   background: none;
-  color: $white;
+  color: $navy;
 }
 
 .status-error {
-  background: $red;
+  background: $orange-700;
   color: $white;
 }
 

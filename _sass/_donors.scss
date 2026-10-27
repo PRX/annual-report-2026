@@ -27,16 +27,16 @@
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   letter-spacing: normal;
-  color: $white;
+  color: $navy;
 
   border-bottom: 1px solid;
   border-image-slice: 1;
   border-width: 1;
-  border-image-source:  linear-gradient(to right, $violet, $cyan, $red, $yellow, $orange, $navy);
+  border-image-source:  linear-gradient(to right, $violet, $cyan, $yellow, $orange, $navy);
 }
 
 .donor--name {
-  --_donor-color: #{$cyan};
+  --_donor-color: #{$navy};
 
   font-weight: bold;
   color: var(--_donor-color);
@@ -45,13 +45,13 @@
 
 .donor:nth-of-type(3n+2) {
   .donor--name {
-    --_donor-color: #{$orange};
+    --_donor-color: #{$violet};
   }
 }
 
 .donor:nth-of-type(3n+3) {
   .donor--name {
-    --_donor-color: #{$yellow};
+    --_donor-color: #{$orange-700};
   }
 }
 

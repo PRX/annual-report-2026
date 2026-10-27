@@ -5,7 +5,7 @@ link:
   anchor: "empowering-stations"
   label: "Empowering Stations"
   icon: "radio-tower"
-color: "red"
+color: "orange"
 menu-group: "1"
 intro: "<p>PRX offers support for our network of close to 900 local stations across the U.S. We distribute a cost-accessible <a href='https://prx.org/shows'>broadcast portfolio</a> of defining shows in public radio like <a href='https://themoth.org/'><i>The Moth</i></a> and <a href='https://www.latinousa.org/'><i>Latino USA</i></a>. As under-resourced stations face headwinds after federal funding cuts, we are providing free access to <a href='https://www.prx.mx/'>PRX Remix</a>, a 24/7 stream of high-quality independent stories. PRX also offers personalized services that help stations explore podcasting possibilities, brainstorm solutions to their <a href='https://prx.org/technology'>technology needs</a>, or share their content and find new, unique programming on PRX Networks or the Exchange — public radio's largest distribution marketplace.</p>"
 quotes:

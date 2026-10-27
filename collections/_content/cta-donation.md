@@ -1,6 +1,6 @@
 ---
 content-type: "content-interlude"
-color: "red"
+color: "orange"
 show-tiles: true
 ---
 
