@@ -1,0 +1,13 @@
+<aside class="board-tray" data-board-ui data-board-state hidden aria-label="Your {{ board_scene.noun }} progress">
+  <p class="board-toast" data-board-toast role="status" aria-live="polite"></p>
+  <a href="#build" class="board-tray-link">
+    {%- capture scene_svg %}svg/{{ board_scene.svg }}.svg{% endcapture -%}
+    {%- capture scene_label %}Your {{ board_scene.noun }} in progress{% endcapture -%}
+    {% include {{ scene_svg }} label=scene_label %}
+    <span class="board-tray-count">
+      <span><strong data-board-count>0</strong>/{{ board_total }}</span>
+      <span>blocks</span>
+      <span class="board-progress" aria-hidden="true"><span></span></span>
+    </span>
+  </a>
+</aside>

@@ -63,4 +63,9 @@
     {%- endif -%}
   </div>
   {%- endif -%}
+
+  {%- assign block_id = welcome.link.anchor | default: welcome.slug -%}
+  {%- if board_scene.blocks[block_id] -%}
+    {% include components/build-block.html id=block_id label=welcome.link.label %}
+  {%- endif -%}
 </section>

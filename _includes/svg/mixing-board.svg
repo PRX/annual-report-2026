@@ -1,0 +1,141 @@
+<svg class="build-scene" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{{ include.label | default: 'Your mixing board' }}" focusable="false">
+  <g data-part="ceo-letter">
+    <rect x="50" y="276" width="44" height="12" rx="3" fill="#002E46"/>
+    <rect x="386" y="276" width="44" height="12" rx="3" fill="#002E46"/>
+    <rect x="20" y="40" width="440" height="242" rx="16" fill="#003A57"/>
+    <rect x="28" y="48" width="424" height="226" rx="10" fill="#0B4562"/>
+    <text x="34" y="271" font-size="7" font-weight="700" letter-spacing="1.5" fill="#8CD2F4" font-family="Montserrat, sans-serif">PRX · 2026</text>
+  </g>
+  <g data-part="empowering-stations">
+    <rect x="34" y="96" width="44" height="168" rx="5" fill="#336179"/>
+    <rect x="84" y="96" width="44" height="168" rx="5" fill="#336179"/>
+    <rect x="134" y="96" width="44" height="168" rx="5" fill="#336179"/>
+    <rect x="184" y="96" width="44" height="168" rx="5" fill="#336179"/>
+    <rect x="234" y="96" width="44" height="168" rx="5" fill="#336179"/>
+    <rect x="284" y="96" width="44" height="168" rx="5" fill="#336179"/>
+    <g font-size="8" font-weight="700" fill="#8CD2F4" text-anchor="middle" font-family="Montserrat, sans-serif">
+      <text x="56" y="259">1</text>
+      <text x="106" y="259">2</text>
+      <text x="156" y="259">3</text>
+      <text x="206" y="259">4</text>
+      <text x="256" y="259">5</text>
+      <text x="306" y="259">6</text>
+    </g>
+  </g>
+  <g data-part="productions">
+    <g fill="#001A28" stroke="#F7FAFF" stroke-width="1.5">
+      <circle cx="56" cy="111" r="8"/>
+      <circle cx="106" cy="111" r="8"/>
+      <circle cx="156" cy="111" r="8"/>
+      <circle cx="206" cy="111" r="8"/>
+      <circle cx="256" cy="111" r="8"/>
+      <circle cx="306" cy="111" r="8"/>
+    </g>
+    <g fill="#FB9306">
+      <circle cx="56" cy="133" r="7"/>
+      <circle cx="106" cy="133" r="7"/>
+      <circle cx="156" cy="133" r="7"/>
+      <circle cx="206" cy="133" r="7"/>
+      <circle cx="256" cy="133" r="7"/>
+      <circle cx="306" cy="133" r="7"/>
+    </g>
+    <path d="M56 133l3-5M106 133l-2-5.5M156 133l4-4M206 133l1-6M256 133l-4-4M306 133l3-5" stroke="#F7FAFF" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <g data-part="cultivating-sound">
+    <g fill="#05968F">
+      <circle cx="56" cy="153" r="5.5"/><circle cx="56" cy="168" r="5.5"/><circle cx="56" cy="183" r="5.5"/>
+      <circle cx="106" cy="153" r="5.5"/><circle cx="106" cy="168" r="5.5"/><circle cx="106" cy="183" r="5.5"/>
+      <circle cx="156" cy="153" r="5.5"/><circle cx="156" cy="168" r="5.5"/><circle cx="156" cy="183" r="5.5"/>
+      <circle cx="206" cy="153" r="5.5"/><circle cx="206" cy="168" r="5.5"/><circle cx="206" cy="183" r="5.5"/>
+      <circle cx="256" cy="153" r="5.5"/><circle cx="256" cy="168" r="5.5"/><circle cx="256" cy="183" r="5.5"/>
+      <circle cx="306" cy="153" r="5.5"/><circle cx="306" cy="168" r="5.5"/><circle cx="306" cy="183" r="5.5"/>
+    </g>
+    <path d="M56 153l2-4M56 168l-3-3M56 183l3-3M106 153l-2-4M106 168l3-3M106 183l0-4.5M156 153l3-3M156 168l0-4.5M156 183l-3-3M206 153l-3-3M206 168l2-4M206 183l3-3M256 153l0-4.5M256 168l-2-4M256 183l3-3M306 153l3-3M306 168l-3-3M306 183l2-4" stroke="#F7FAFF" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+  </g>
+  <g data-part="radiotopia">
+    <g fill="#001A28">
+      <rect x="54" y="198" width="4" height="52" rx="2"/>
+      <rect x="104" y="198" width="4" height="52" rx="2"/>
+      <rect x="154" y="198" width="4" height="52" rx="2"/>
+      <rect x="204" y="198" width="4" height="52" rx="2"/>
+      <rect x="254" y="198" width="4" height="52" rx="2"/>
+      <rect x="304" y="198" width="4" height="52" rx="2"/>
+    </g>
+    <g fill="#984FA0">
+      <rect x="46" y="214" width="20" height="10" rx="2"/>
+      <rect x="96" y="205" width="20" height="10" rx="2"/>
+      <rect x="146" y="226" width="20" height="10" rx="2"/>
+      <rect x="196" y="210" width="20" height="10" rx="2"/>
+      <rect x="246" y="232" width="20" height="10" rx="2"/>
+      <rect x="296" y="218" width="20" height="10" rx="2"/>
+    </g>
+    <path d="M46 219h20M96 210h20M146 231h20M196 215h20M246 237h20M296 223h20" stroke="#F7FAFF" stroke-width="1.2" fill="none"/>
+  </g>
+  <g data-part="building-peer-networks">
+    <rect x="154" y="54" width="172" height="34" rx="4" fill="#002E46"/>
+    <g fill="#001A28" stroke="#8CD2F4" stroke-width="1">
+      <circle cx="166" cy="64" r="3.5"/><circle cx="182" cy="64" r="3.5"/><circle cx="198" cy="64" r="3.5"/><circle cx="214" cy="64" r="3.5"/><circle cx="230" cy="64" r="3.5"/><circle cx="246" cy="64" r="3.5"/><circle cx="262" cy="64" r="3.5"/><circle cx="278" cy="64" r="3.5"/><circle cx="294" cy="64" r="3.5"/><circle cx="310" cy="64" r="3.5"/>
+      <circle cx="166" cy="78" r="3.5"/><circle cx="182" cy="78" r="3.5"/><circle cx="198" cy="78" r="3.5"/><circle cx="214" cy="78" r="3.5"/><circle cx="230" cy="78" r="3.5"/><circle cx="246" cy="78" r="3.5"/><circle cx="262" cy="78" r="3.5"/><circle cx="278" cy="78" r="3.5"/><circle cx="294" cy="78" r="3.5"/><circle cx="310" cy="78" r="3.5"/>
+    </g>
+    <path d="M182 64C182 100 246 100 246 78" stroke="#05968F" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M214 78C214 104 294 104 294 64" stroke="#FB9306" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <g>
+      <circle cx="182" cy="64" r="4.5" fill="#05968F"/><circle cx="246" cy="78" r="4.5" fill="#05968F"/>
+      <circle cx="214" cy="78" r="4.5" fill="#FB9306"/><circle cx="294" cy="64" r="4.5" fill="#FB9306"/>
+    </g>
+  </g>
+  <g data-part="technology">
+    <rect x="34" y="54" width="112" height="34" rx="4" fill="#001A28" stroke="#8CD2F4" stroke-width="1"/>
+    <circle cx="47" cy="78" r="2.5" fill="#FB9306"/>
+    <path d="M45 69a9 9 0 0 1 9 9M45 62.5a15.5 15.5 0 0 1 15.5 15.5" stroke="#FB9306" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <polyline points="70,71 76,64 82,78 88,60 94,82 100,66 106,75 112,62 118,80 124,68 130,73 138,71" stroke="#8CD2F4" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g data-part="resilience">
+    <rect x="334" y="54" width="40" height="34" rx="4" fill="#002E46"/>
+    <path d="M352 61v8M346.5 64.5a8 8 0 1 0 11 0" stroke="#F7FAFF" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+    <circle class="bb-led" cx="367" cy="60" r="2.5" fill="#05968F"/>
+  </g>
+  <g data-part="leading-values">
+    <rect x="380" y="54" width="66" height="34" rx="4" fill="#001A28"/>
+    <rect class="bb-meter-bar" style="--i:0" x="386" y="74" width="5" height="10" fill="#05968F"/>
+    <rect class="bb-meter-bar" style="--i:1" x="393" y="68" width="5" height="16" fill="#05968F"/>
+    <rect class="bb-meter-bar" style="--i:2" x="400" y="62" width="5" height="22" fill="#FEC400"/>
+    <rect class="bb-meter-bar" style="--i:3" x="407" y="66" width="5" height="18" fill="#FEC400"/>
+    <rect class="bb-meter-bar" style="--i:4" x="414" y="72" width="5" height="12" fill="#05968F"/>
+    <rect class="bb-meter-bar" style="--i:5" x="421" y="64" width="5" height="20" fill="#FEC400"/>
+    <rect class="bb-meter-bar" style="--i:6" x="428" y="60" width="5" height="24" fill="#FB9306"/>
+    <rect class="bb-meter-bar" style="--i:7" x="435" y="70" width="5" height="14" fill="#05968F"/>
+  </g>
+  <g data-part="donor-list">
+    <rect x="340" y="96" width="52" height="168" rx="5" fill="#336179"/>
+    <text x="366" y="112" font-size="8" font-weight="700" letter-spacing="1" fill="#FEC400" text-anchor="middle" font-family="Montserrat, sans-serif">MAIN</text>
+    <path d="M356 130h-4M356 150h-4M356 170h-4M356 190h-4M356 210h-4M356 230h-4" stroke="#8CD2F4" stroke-width="1" fill="none"/>
+    <rect x="364" y="124" width="4" height="122" rx="2" fill="#001A28"/>
+    <rect x="352" y="146" width="28" height="15" rx="3" fill="#FEC400"/>
+    <path d="M352 153.5h28" stroke="#003A57" stroke-width="1.4" fill="none"/>
+  </g>
+  <g data-part="finances">
+    <rect x="398" y="96" width="48" height="168" rx="5" fill="#336179"/>
+    <text x="422" y="112" font-size="8" font-weight="700" letter-spacing="1" fill="#FEC400" text-anchor="middle" font-family="Montserrat, sans-serif">OUT</text>
+    <g fill="#001A28" stroke="#F7FAFF" stroke-width="1.5">
+      <circle cx="422" cy="132" r="8"/>
+      <circle cx="422" cy="158" r="8"/>
+    </g>
+    <path d="M422 216v34" stroke="#8CD2F4" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <circle cx="422" cy="213" r="3.5" fill="#8CD2F4"/>
+    <path class="bb-wave" d="M414 205a11 11 0 0 0 0 16M430 205a11 11 0 0 1 0 16" stroke="#8CD2F4" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path class="bb-wave bb-wave--outer" d="M408 199a19 19 0 0 0 0 28M436 199a19 19 0 0 1 0 28" stroke="#8CD2F4" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+  <g data-part="playlist">
+    <path d="M454 40C470 44 472 70 452 76" stroke="#002E46" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M404 36a22 22 0 0 1 44 0" stroke="#003A57" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <rect x="397" y="27" width="13" height="19" rx="5" fill="#984FA0"/>
+    <rect x="442" y="27" width="13" height="19" rx="5" fill="#984FA0"/>
+    <path d="M401 31v11M451 31v11" stroke="#F7FAFF" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <g data-part="awards-press">
+    <rect x="235" y="30" width="10" height="12" fill="#002E46"/>
+    <rect class="bb-onair-lamp" x="194" y="6" width="92" height="26" rx="13" fill="#A8322A"/>
+    <text x="240" y="23.5" font-size="11" font-weight="700" letter-spacing="2" fill="#FFFFFF" text-anchor="middle" font-family="Montserrat, sans-serif">ON AIR</text>
+  </g>
+</svg>

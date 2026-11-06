@@ -8,4 +8,6 @@ image:
   path: /assets/img/og-image-2025b.jpg
 ---
 <h2 class="text-center">2026 at PRX</h2>
+{%- assign board_scene = site.data.board.scenes[site.board_scene] -%}
+<p class="board-intro text-center" data-board-ui hidden>{{ board_scene.intro }} <a href="#build">See your {{ board_scene.noun }}</a></p>
 <div style="position: relative; height: 0; width: 100%; min-width: 300px; padding-top: 56.25%;"><iframe title="PRX Embed Player" allow="monetization" frameborder="0" height="100%" scrolling="no" src="https://play.prx.org/e?ge=prx_284_8eae352a-e4c6-402c-bb47-603819fd9929&mt=video&uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F284%2Ffeed-rss.xml" style="position: absolute; inset: 0;" width="100%"></iframe></div>

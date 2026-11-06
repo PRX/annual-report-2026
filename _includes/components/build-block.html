@@ -1,0 +1,24 @@
+<div class="build-block-wrapper" data-board-ui hidden>
+  <button
+    type="button"
+    class="build-block"
+    data-block-id="{{ include.id }}"
+    data-block-label="{{ include.label }}"
+  >
+    <span class="build-block-icon" aria-hidden="true">
+      {% include svg/icons/blocks.svg %}
+    </span>
+    <span class="build-block-text">
+      <span class="build-block-eyebrow">
+        <span class="build-block-pending">Collect your building block</span>
+        <span class="build-block-done">Building block collected</span>
+      </span>
+      <span class="build-block-label">{{ include.label }}</span>
+      <span class="build-block-blurb">{{ board_scene.blocks[include.id] }}</span>
+    </span>
+    <span class="build-block-action">
+      <span class="build-block-pending">Collect</span>
+      <span class="build-block-done">✓ Added to your {{ board_scene.noun }}</span>
+    </span>
+  </button>
+</div>

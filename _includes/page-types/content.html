@@ -86,4 +86,9 @@
       carousel=content.carousel
     %}
   {%- endif -%}
+
+  {%- assign block_id = content.link.anchor | default: content.slug -%}
+  {%- if board_scene.blocks[block_id] -%}
+    {% include components/build-block.html id=block_id label=content.link.label %}
+  {%- endif -%}
 </section>

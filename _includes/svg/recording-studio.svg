@@ -1,0 +1,136 @@
+<svg class="build-scene" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{{ include.label | default: 'Your studio' }}" focusable="false">
+  <g data-part="finances">
+    <rect x="24" y="264" width="432" height="18" rx="3" fill="#002E46"/>
+    <path d="M96 264v18M168 264v18M240 264v18M312 264v18M384 264v18" stroke="#336179" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <g data-part="ceo-letter">
+    <rect x="40" y="112" width="400" height="152" fill="#336179"/>
+    <rect x="50" y="122" width="380" height="142" fill="#E9F1F6"/>
+  </g>
+
+  <g data-part="resilience">
+    <rect x="30" y="100" width="420" height="14" rx="2" fill="#003A57"/>
+  </g>
+
+  <g data-part="empowering-stations">
+    <path d="M368 100L380 34L392 100M372 78h16M376 56h8" stroke="#003A57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle class="bb-led" cx="380" cy="32" r="4" fill="#FB9306"/>
+    <path class="bb-wave" d="M368 24a14 14 0 0 0 0 16M392 24a14 14 0 0 1 0 16" stroke="#05968F" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path class="bb-wave bb-wave--outer" d="M361 18a22 22 0 0 0 0 28M399 18a22 22 0 0 1 0 28" stroke="#05968F" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g data-part="awards-press">
+    <path d="M206 100v-8M234 100v-8" stroke="#003A57" stroke-width="2.5" fill="none"/>
+    <rect class="bb-onair-lamp" x="196" y="76" width="48" height="18" rx="9" fill="#A8322A"/>
+    <rect x="217" y="78.5" width="6" height="8" rx="3" fill="#FFFFFF"/>
+    <path d="M214 84a6 6 0 0 0 12 0M220 90v2" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g data-part="leading-values">
+    <path d="M176 122v26M304 122v26" stroke="#003A57" stroke-width="1.5" fill="none"/>
+    <path d="M166 156h20l-4-8h-12zM294 156h20l-4-8h-12z" fill="#003A57"/>
+    <g class="bb-bulb" fill="#FEC400">
+      <circle cx="176" cy="159" r="3.5"/>
+      <circle cx="304" cy="159" r="3.5"/>
+    </g>
+  </g>
+
+  <g data-part="cultivating-sound">
+    <g fill="#05968F">
+      <rect x="100" y="130" width="24" height="46" rx="3"/>
+      <rect x="130" y="130" width="24" height="46" rx="3"/>
+      <rect x="326" y="130" width="24" height="46" rx="3"/>
+      <rect x="356" y="130" width="24" height="46" rx="3"/>
+    </g>
+    <path d="M103 142q4.5-5 9 0t9 0M103 155q4.5-5 9 0t9 0M103 168q4.5-5 9 0t9 0M133 142q4.5-5 9 0t9 0M133 155q4.5-5 9 0t9 0M133 168q4.5-5 9 0t9 0M329 142q4.5-5 9 0t9 0M329 155q4.5-5 9 0t9 0M329 168q4.5-5 9 0t9 0M359 142q4.5-5 9 0t9 0M359 155q4.5-5 9 0t9 0M359 168q4.5-5 9 0t9 0" stroke="#F7FAFF" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <g data-part="playlist">
+    <g fill="#003A57">
+      <rect x="60" y="140" width="24" height="36" rx="3"/>
+      <rect x="396" y="140" width="24" height="36" rx="3"/>
+    </g>
+    <g fill="#8CD2F4">
+      <circle cx="72" cy="149" r="3"/><circle cx="72" cy="165" r="7"/>
+      <circle cx="408" cy="149" r="3"/><circle cx="408" cy="165" r="7"/>
+    </g>
+    <path class="bb-wave" d="M89 158a8 8 0 0 1 0 12M391 158a8 8 0 0 0 0 12" stroke="#05968F" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g data-part="building-peer-networks">
+    <rect x="206" y="128" width="68" height="40" rx="3" fill="#001A28" stroke="#8CD2F4" stroke-width="1"/>
+    <path d="M220 144L238 136L258 145L252 160L228 158L220 144M238 136L228 158M238 136L252 160" stroke="#8CD2F4" stroke-width="1" fill="none"/>
+    <g fill="#FEC400">
+      <circle cx="220" cy="144" r="3"/><circle cx="258" cy="145" r="3"/><circle cx="228" cy="158" r="3"/>
+    </g>
+    <g fill="#05968F">
+      <circle cx="238" cy="136" r="3"/><circle cx="252" cy="160" r="3"/>
+    </g>
+    <rect x="56" y="244" width="12" height="10" rx="2" fill="#8CD2F4"/>
+    <path d="M150 218C140 250 100 258 68 250" stroke="#FB9306" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g data-part="technology">
+    <g fill="#8CD2F4">
+      <rect x="84" y="58" width="56" height="16" rx="8"/>
+      <circle cx="100" cy="60" r="12"/>
+      <circle cx="122" cy="54" r="16"/>
+    </g>
+    <path d="M106 70v-12m-4 4l4-4l4 4M120 58v12m-4-4l4 4l4-4" stroke="#003A57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M112 76v24" stroke="#8CD2F4" stroke-width="2" stroke-dasharray="2 3" fill="none"/>
+
+    <rect x="192" y="174" width="46" height="28" rx="3" fill="#001A28" stroke="#8CD2F4" stroke-width="1"/>
+    <polyline points="196,189 200,183 204,194 208,180 212,196 216,185 220,190" stroke="#8CD2F4" stroke-width="1.3" stroke-linejoin="round" fill="none"/>
+    <rect class="bb-meter-bar" style="--i:0" x="224" y="190" width="2.5" height="8" fill="#05968F"/>
+    <rect class="bb-meter-bar" style="--i:1" x="227.5" y="185" width="2.5" height="13" fill="#FEC400"/>
+    <rect class="bb-meter-bar" style="--i:2" x="231" y="188" width="2.5" height="10" fill="#05968F"/>
+    <rect class="bb-meter-bar" style="--i:3" x="234.5" y="183" width="2.5" height="15" fill="#FB9306"/>
+
+    <rect x="242" y="174" width="46" height="28" rx="3" fill="#001A28" stroke="#8CD2F4" stroke-width="1"/>
+    <path d="M245 174h40a3 3 0 0 1 3 3v3h-46v-3a3 3 0 0 1 3-3z" fill="#0873A9"/>
+    <g fill="#F7FAFF">
+      <circle cx="246.5" cy="177" r="1"/><circle cx="250" cy="177" r="1"/><circle cx="253.5" cy="177" r="1"/>
+    </g>
+    <circle cx="259" cy="191" r="7" stroke="#8CD2F4" stroke-width="1.3" fill="none"/>
+    <path d="M252 191h14M259 184c-4 4-4 10 0 14c4-4 4-10 0-14" stroke="#8CD2F4" stroke-width="1.1" fill="none"/>
+    <circle cx="274" cy="197" r="1.5" fill="#FB9306"/>
+    <path d="M274 192a5 5 0 0 1 5 5M274 188a9 9 0 0 1 9 9" stroke="#FB9306" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+    <g fill="#003A57">
+      <rect x="212" y="202" width="6" height="8"/>
+      <rect x="262" y="202" width="6" height="8"/>
+    </g>
+  </g>
+
+  <g data-part="productions">
+    <rect x="104" y="210" width="272" height="8" rx="2" fill="#003A57"/>
+    <g fill="#003A57">
+      <rect x="114" y="218" width="6" height="46"/>
+      <rect x="360" y="218" width="6" height="46"/>
+    </g>
+    <rect x="150" y="198" width="36" height="12" rx="2" fill="#336179"/>
+    <g fill="#FB9306">
+      <circle cx="157" cy="204" r="2.2"/><circle cx="165" cy="204" r="2.2"/>
+    </g>
+    <g fill="#FEC400">
+      <rect x="171" y="200" width="2.5" height="8"/><rect x="176" y="200" width="2.5" height="8"/><rect x="181" y="200" width="2.5" height="8"/>
+    </g>
+  </g>
+
+  <g data-part="radiotopia">
+    <path d="M130 207V188M312 207V188M346 207V188M122 208.5h16M304 208.5h16M338 208.5h16" stroke="#003A57" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <g fill="#984FA0">
+      <rect x="124" y="170" width="12" height="20" rx="6"/>
+      <rect x="306" y="170" width="12" height="20" rx="6"/>
+      <rect x="340" y="170" width="12" height="20" rx="6"/>
+    </g>
+    <path d="M124 177h12M124 182h12M306 177h12M306 182h12M340 177h12M340 182h12" stroke="#F7FAFF" stroke-width="1" fill="none"/>
+  </g>
+
+  <g data-part="donor-list">
+    <rect x="400" y="202" width="24" height="62" rx="2" fill="#FB9306"/>
+    <rect x="404" y="208" width="16" height="22" rx="1" fill="#FEC400"/>
+    <circle cx="405" cy="236" r="2" fill="#003A57"/>
+  </g>
+</svg>

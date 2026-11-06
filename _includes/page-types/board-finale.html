@@ -1,0 +1,56 @@
+<section id="build" class="container board-finale violet" data-board-ui data-board-state data-board-finale hidden>
+  <div class="content-wrapper">
+    <div class="content-header">
+      <h2 class="content-title">
+        <span class="icon">{% include svg/icons/blocks.svg %}</span>
+        {{ board_scene.title }}
+      </h2>
+      <p class="board-finale-lede">{{ board_scene.lede }}</p>
+    </div>
+
+    <div class="board-finale-stage">
+      {%- capture scene_svg %}svg/{{ board_scene.svg }}.svg{% endcapture -%}
+      {%- capture scene_label %}Your {{ board_scene.noun }}{% endcapture -%}
+      {% include {{ scene_svg }} label=scene_label %}
+    </div>
+
+    <div class="board-finale-incomplete">
+      <p class="board-finale-status">You've collected <strong data-board-count>0</strong> of <strong>{{ board_total }}</strong> building blocks.</p>
+      <p>Head back to these sections to collect what's missing:</p>
+      <ul class="board-parts-list">
+        {%- for doc in board_docs -%}
+        {%- assign anchor = doc.link.anchor | default: doc.slug -%}
+        {%- if board_scene.blocks[anchor] -%}
+        <li data-part-item="{{ anchor }}">
+          <a href="#{{ anchor }}">{{ doc.link.label | default: doc.title }}</a>
+        </li>
+        {%- endif -%}
+        {%- endfor -%}
+        {%- if board_scene.blocks.playlist -%}
+        <li data-part-item="playlist">
+          <a href="#playlist">{{ site.data.board.playlist_label }}</a>
+        </li>
+        {%- endif -%}
+      </ul>
+    </div>
+
+    <div class="board-finale-complete">
+      <p class="board-finale-eyebrow">On air</p>
+      <h3>{{ board_scene.complete_heading }}</h3>
+      <p>{{ board_scene.complete_body }}</p>
+      <div class="board-finale-cta">
+        {% include components/button-link.html
+          href="?campaign=733266&c_src=AR-2025&c_src2=board"
+          color="yellow"
+          icon="heart-handshake"
+          label="Donate"
+        %}
+      </div>
+    </div>
+
+    <p class="board-finale-actions">
+      <button type="button" class="board-finale-action" data-board-reset>Start over</button>
+      <a href="#top" class="board-finale-action">Back to top</a>
+    </p>
+  </div>
+</section>

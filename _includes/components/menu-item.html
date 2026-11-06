@@ -1,4 +1,4 @@
-<li class="menu-item" role="presentation">
+<li class="menu-item" role="presentation"{% if include.board-ui %} data-board-ui hidden{% endif %}>
   <a
     href="{{ include.href }}"
     class="menu-link"

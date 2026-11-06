@@ -19,13 +19,6 @@
       %}
     {% endfor %}
 
-    {% include components/menu-item.html
-      href="#map-container"
-      label="Our Reach"
-      color="white"
-      icon="globe"
-    %}
-
     <hr>
 
     {% for content in site.content %}
@@ -41,6 +34,13 @@
         {% include navbar/navbar-menu-group.html %}
       {% endif %}
     {% endfor %}
+
+    {% include components/menu-item.html
+      href="#build"
+      label=board_scene.title
+      icon="blocks"
+      board-ui=true
+    %}
 
     <hr>
 

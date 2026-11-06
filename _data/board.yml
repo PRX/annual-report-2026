@@ -1,0 +1,50 @@
+# Pick the active scene with `board_scene` in _config.yml.
+# `blocks` keys are section anchors (link.anchor); each section listed earns one block.
+playlist_label: "Podcast Playlist"
+
+scenes:
+  studio:
+    svg: recording-studio
+    title: "Build the Studio"
+    noun: "studio"
+    intro: "As you read, collect a building block at the end of each section. Piece by piece, you'll build the studio where public media's next chapter gets made."
+    lede: "The next iteration of public media is being built right now by stations, creators, technologists, and supporters. Every section of this report added a piece. Here's the studio you've built."
+    complete_heading: "You built the next iteration of public media."
+    complete_body: "A solid foundation, a roof that holds through any weather, stations carrying the signal, and supporters who keep the doors open. That's what PRX builds every day. Help keep it on the air."
+    blocks:
+      ceo-letter: "The frame every next step is built on."
+      empowering-stations: "Close to 900 local stations, carrying the signal."
+      cultivating-sound: "Shaping the future sound of public radio."
+      radiotopia: "Independent voices, given room to create."
+      productions: "Mission-driven stories, produced with care."
+      building-peer-networks: "Connecting creators and stations."
+      technology: "Public-interest technology that powers it all."
+      leading-values: "Lighting the way on what matters."
+      resilience: "Shelter through uncertain times."
+      awards-press: "Recognition that the work is being heard."
+      donor-list: "Supporters who keep the doors open."
+      finances: "A sustainable foundation for what's next."
+      playlist: "Podcasts that land in listeners' ears, wherever they are."
+
+  mixer:
+    svg: mixing-board
+    title: "Build the Board"
+    noun: "mixing board"
+    intro: "As you read, collect a building block at the end of each section. Piece by piece, you'll build the mixing board that powers what's next for public media."
+    lede: "The next iteration of public media is being built right now by stations, creators, technologists, and supporters. Every section of this report added a piece. Here's the board you've built."
+    complete_heading: "You built the next iteration of public media."
+    complete_body: "Stations feeding the signal, creators shaping the sound, technology routing it to listeners everywhere, and supporters bringing the whole mix up. That's what PRX builds every day. Help keep it on the air."
+    blocks:
+      ceo-letter: "The sturdy frame every next step is built on."
+      empowering-stations: "Close to 900 local stations, each feeding a signal into the mix."
+      cultivating-sound: "Shaping the future sound of public radio."
+      radiotopia: "Independent voices, each with their own level in the mix."
+      productions: "Mission-driven stories, amplified."
+      building-peer-networks: "Connecting creators and stations, one cable at a time."
+      technology: "Public-interest technology that routes it all."
+      leading-values: "Measuring what matters most."
+      resilience: "Steady current through uncertain times."
+      awards-press: "Recognition that the work is being heard."
+      donor-list: "Supporters bring the whole mix up."
+      finances: "A sustainable signal, sent to air."
+      playlist: "Podcasts that land in listeners' ears, wherever they are."

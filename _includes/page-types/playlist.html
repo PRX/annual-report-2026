@@ -26,4 +26,8 @@
     </div>
 
   </div>
+
+  {%- if board_scene.blocks.playlist -%}
+    {% include components/build-block.html id="playlist" label=site.data.board.playlist_label %}
+  {%- endif -%}
 </section>

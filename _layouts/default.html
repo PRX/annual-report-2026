@@ -11,8 +11,12 @@
 </head>
 
 <body>
+  {%- assign board_scene = site.data.board.scenes[site.board_scene] -%}
+  {%- assign board_docs = site.welcome | concat: site.content -%}
+  {%- assign board_total = board_scene.blocks.size -%}
   {% include navbar/navbar.html %}
   {% include navbar/navbar-drawer.html %}
+  {% include components/board-tray.html %}
   {% include page-types/hero.html %}
   <div class="layout-wrapper">
      <main id="layout-content" class="layout-content">
@@ -29,10 +33,6 @@
         {% endfor %}
       </div>
 
-      <div id="map-container" class="map">
-        {% include page-types/map.html %}
-      </div>
-
       <div class="contents">
         {% for content in site.content %}
           {% if content.content-type == 'content-interlude' %}
@@ -44,6 +44,8 @@
       </div>
 
       {% include page-types/playlist.html %}
+
+      {% include page-types/board-finale.html %}
 
     </div>
 
