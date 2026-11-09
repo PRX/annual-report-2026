@@ -29,10 +29,6 @@
         {% endfor %}
       </div>
 
-      <div id="map-container" class="map">
-        {% include page-types/map.html %}
-      </div>
-
       <div class="contents">
         {% for content in site.content %}
           {% if content.content-type == 'content-interlude' %}

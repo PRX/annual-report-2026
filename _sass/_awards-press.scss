@@ -28,12 +28,12 @@
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     letter-spacing: normal;
-    color: $white;
+    color: $navy;
 
     border-bottom: 1px solid;
     border-image-slice: 1;
     border-width: 1;
-    border-image-source:  linear-gradient(to right, $violet, $cyan, $yellow, $orange, $red);
+    border-image-source:  linear-gradient(to right, $violet, $cyan, $yellow, $orange);
   }
 
   ul {
