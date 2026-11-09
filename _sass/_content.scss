@@ -69,6 +69,18 @@ prx-audio-quote {
 
 .content-interlude {
   padding-block: 3rem;
+  
+  p {
+    color: $white;
+    
+    a {color: $blue-100;}
+  }
+
+  .content-quote {
+    p, a {
+      color: $navy;
+    }
+  }
 
   .btn {
     display: inline-block;
@@ -95,6 +107,7 @@ prx-audio-quote {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 2.5rem 2rem 1rem;
+    color: $navy;
 
     background-image: linear-gradient(to bottom, transparent, var(--section-color) 35%);
 
@@ -113,6 +126,9 @@ prx-audio-quote {
     p {
       font-size: 0.9rem;
       margin-bottom: 0;
+      color: $navy;
+
+       a {color: $navy;}
 
       &.donate {margin-top: 1rem;}
 
@@ -169,14 +185,14 @@ prx-audio-quote {
     max-height: 100%;
     object-fit: cover;
 
-    mask-image:
+    /*mask-image:
       url(/assets/img/content/prx-mark.svg),
       linear-gradient(to right, transparent 0%, rgba(0,37,51,0.5) 30%);
     mask-size: 120vmin, 100%;
     mask-repeat: no-repeat, no-repeat;
-    mask-position: center, center;
+    mask-position: center, center;*/
 
-    opacity: 0.6;
+    opacity: 0.8;
   }
 
   :has(> &) {
