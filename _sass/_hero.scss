@@ -1,6 +1,7 @@
 .hero {
   position: relative;
   min-height: 100svh;
+  isolation: isolate;
   display: grid;
   grid-template-columns: var(--nav-expanded) 1fr;
   place-content: center;
@@ -72,29 +73,7 @@
   inset: 0;
   z-index: -1;
 
-  mask-image: linear-gradient(to top, transparent, black 50%);
-
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-
-    background-image:
-    linear-gradient(to top left, rgba($teal, 0.15), transparent, rgba($violet, 0.2)),
-    linear-gradient(rgba($white, 0.6) 0 0);
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-
-    background-color: rgba($navy, 0);
-
-    mask-image: linear-gradient(to bottom, black 35%, transparent);
-  }
+  mask-image: linear-gradient(to top, transparent, black 10%);
 
   img {
     animation-name: hero-card-image-zoom;
