@@ -7,6 +7,9 @@ link:
   icon: "sprout"
 color: "violet"
 menu-group: "1"
+header-image:
+  url: img/content/placeholder-6.jpg
+  alt: ""
 blocks:
   - subhead: "A new vision for public media requires work that is both relational and structural."
   - text: |

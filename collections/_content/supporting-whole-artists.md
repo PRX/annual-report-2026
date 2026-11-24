@@ -7,6 +7,9 @@ link:
   icon: "hand-heart"
 color: "orange"
 menu-group: "1"
+header-image:
+  url: img/content/placeholder-1.jpg
+  alt: ""
 blocks:
   - subhead: "PRX curates partners, not shows."
   - text: |

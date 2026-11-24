@@ -1,4 +1,13 @@
 <section id="{{ content.link.anchor | default: content.slug }}" class="container content {{ content.color }}">
+  {%- if content.header-image -%}
+  <figure class="content-header-image">
+    {%- if content.header-image.alt != blank -%}
+    {% picture section-header-image {{ content.header-image.url }} --alt {{ content.header-image.alt }} %}
+    {%- else -%}
+    {% picture section-header-image {{ content.header-image.url }} %}
+    {%- endif -%}
+  </figure>
+  {%- endif -%}
   <div class="content-wrapper">
     <div class="content-header">
       <h2 class="content-title">

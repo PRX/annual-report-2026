@@ -82,6 +82,17 @@ presets:
       avif: 100
       jp2: 100
 
+  section-header-image:
+    formats: [webp, original]
+    widths: [400, 600, 800, 1000, 1200, 1600, 2400]
+    fallback_width: 800
+    attributes:
+      img: 'loading="lazy" alt=""'
+    size: 100vw
+    dimension_attributes: true
+    format_quality:
+      webp: 100
+
   mosaic-image:
     formats: [webp, original]
     widths: [200, 300, 400, 500, 600, 700, 800, 900, 1000, 1200, 1600]

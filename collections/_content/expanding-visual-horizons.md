@@ -7,6 +7,9 @@ link:
   icon: "list-video"
 color: "violet"
 menu-group: "1"
+header-image:
+  url: img/content/placeholder-3.jpg
+  alt: ""
 blocks:
   - subhead: "PRX is rooted in audio-first storytelling, but we are building expertise that meets audiences where they are."
   - text: |

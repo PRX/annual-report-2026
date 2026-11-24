@@ -7,6 +7,9 @@ link:
   icon: "radio-tower"
 color: "teal"
 menu-group: "1"
+header-image:
+  url: img/content/placeholder-5.jpg
+  alt: ""
 blocks:
   - subhead: "From tuning into <em>The World</em> with KGHR in Tuba, Arizona, <em>Left, Right and Center</em>, with KXWT in West Texas, <em>Reveal</em> with KGLT in Bozeman, Montana, and <em>The Sam Sanders Show</em> with WEVO in Concord, New Hampshire, listeners can hear the best of public radio on their local air because of PRX."
   - text: |

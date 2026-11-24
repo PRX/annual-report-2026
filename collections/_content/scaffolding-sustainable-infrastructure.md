@@ -7,6 +7,9 @@ link:
   icon: "microchip"
 color: "orange"
 menu-group: "1"
+header-image:
+  url: img/content/placeholder-4.jpg
+  alt: ""
 blocks:
   - subhead: "PRX is creating shared, community-driven technology that makes the day-to-day work of local public media stations smoother and more financially viable."
   - text: |

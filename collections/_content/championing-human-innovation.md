@@ -7,6 +7,9 @@ link:
   icon: "mic"
 color: "teal"
 menu-group: "1"
+header-image:
+  url: img/content/placeholder-2.jpg
+  alt: ""
 blocks:
   - subhead: "Listeners deserve stories made with care. Artists who make them deserve a partner who believes in the power of human creativity."
   - text: |

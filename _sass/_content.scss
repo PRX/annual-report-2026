@@ -12,6 +12,17 @@
   }
 }
 
+.content-header-image {
+  margin: -3rem -3rem 3rem;
+
+  picture, img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+}
+
 .content-header {
   max-width: 800px;
   margin-bottom: 2rem;
