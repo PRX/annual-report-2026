@@ -78,7 +78,7 @@ collections_dir: collections
 collections:
   welcome:
     order:
-      - ceo-letter.html
+      - welcome.html
   content:
     order:
       - transition-backbone.md

@@ -1,7 +1,7 @@
 .welcome {
-  --_welcome--gutter: var(--welcome--gutter, var(--content--gutter, 4rem));
+  --_welcome--gutter: var(--welcome--gutter, var(--content--gutter, 1rem));
   --_welcome--column-gap: var(--welcome--column-gap, var(--content---column-gap, 3rem));
-  --_welcome--row-gap: var(--welcome--row-gap, var(--content---row-gap, 4rem));
+  --_welcome--row-gap: var(--welcome--row-gap, var(--content---row-gap, 1rem));
   --_welcome--padding-y: var(--welcome--padding-y, var(--content--padding-y, 3rem));
   --_welcome--color: var(--welcome--color, #{$orange});
   --_welcome--accent--color1: var(--welcome-image--accent--color1, #{$yellow});
@@ -28,7 +28,7 @@
   }
 
   @media (min-width: 768px) {
-    --welcome--gutter: 6rem;
+    --welcome--gutter: 1rem;
   }
 }
 
