@@ -14,7 +14,7 @@
 
 .content-header-image {
   margin: -3rem -3rem 3rem;
-  height: 100svh;
+  height: 125svh;
   clip-path: inset(0);
 
   picture {
@@ -29,6 +29,32 @@
     max-width: none;
     height: 100lvh;
     object-fit: cover;
+  }
+}
+
+.content-header-image-previous {
+  display: none;
+}
+
+@supports (animation-timeline: view()) {
+  .content-header-image {
+    view-timeline: --header-image block;
+  }
+
+  .content-header-image-previous {
+    display: contents;
+  }
+
+  .content-header-image > picture img {
+    animation: content-header-image-fade ease-in both;
+    animation-timeline: --header-image;
+    animation-range: entry 0% contain 10%;
+  }
+}
+
+@keyframes content-header-image-fade {
+  from {
+    opacity: 0;
   }
 }
 
