@@ -1,31 +1,31 @@
 ---
 content-type: "content"
-title: "Radiotopia: Independent Artists in Community"
+title: "Expanding Visual Horizons"
 link:
-  anchor: "radiotopia"
-  label: "Radiotopia"
-  icon: "radiotopia"
+  anchor: "expanding-visual-horizons"
+  label: "Expanding Visual Horizons"
+  icon: "list-video"
 color: "violet"
 menu-group: "1"
-intro: "<p>Radiotopia from PRX is a cultural tastemaker, evolving from public radio roots into visionary storytellers representing the best of their genres across history, fiction, society, and culture. This year, Radiotopia launched 18 seasons and specials, including bringing on <a href='https://medium.com/prxofficial/alex-goldman-introduces-hyperfixed-podcast-472ccb8a1f56'><i>Hyperfixed</i></a> from Alex Goldman, <a href='https://www.radiotopia.fm/podcasts/proxy-with-yowei-shaw'><i>Proxy with Yowei Shaw</i></a>, <a href='https://www.neverpo.st/never-post-is-joining-radiotopia/'><i>Never Post</i></a>, and <a href='https://podcasts.apple.com/us/channel/selects/id6477714967'><i>Selects</i></a>, an inspired collection of audio gems from throughout the eras. With support from the Mellon Foundation, <a href='https://www.earhustlesq.com/'><i>Ear Hustle</i></a> built an <a href='https://medium.com/prxofficial/ear-hustle-to-create-audio-storytelling-capabilities-at-the-california-institution-for-women-1eb132b20d6f'>audio production space for incarcerated individuals</a> in the California Institution for Women. <a href='http://thememorypalace.us/'><i>The Memory Palace</i></a> shared a live performance at the Tribeca Festival. <a href='https://www.radiotopia.fm/podcasts/normal-gossip-jyw4c'><i>Normal Gossip</i></a>’s creators passed the reins of the hit show to new host Rachelle Hampton and producer Se’era Spragley Ricks, while Hrishikesh Hirway’s acclaimed <a href='https://songexploder.net/'><i>Song Exploder</i></a> extended onto the airwaves with <a href='https://www.kalw.org/show/song-exploder-remix'><i>Song Exploder Remix</i></a> from KALW Public Media in San Francisco. The network’s <i>Radiotopia Presents</i> podcast feed for visionary, emerging producers featured the intergenerational audio drama of queer love, <a href='https://radiotopiapresents.fm/red-for-revolution'><i>Red for Revolution</i></a>, and <a href='https://www.radiotopia.fm/podcasts/were-doing-the-wiz'><i>We’re Doing the Wiz</i></a>, a documentary of identity and reckoning amidst a high school musical production.</p>"
-quotes:
-  - text: "<p><i>Ear Hustle</i> changes the world one story, one episode, one listener, and one podcaster at a time. I've been listening to <i>Ear Hustle</i> since its inception, and it has fundamentally altered — in wonderful ways — the way I'm able to engage with my community. <i>Ear Hustle</i> invites me to see and feel the experience of incarcerated people through eyes that are honest, questioning, and most importantly — and beautifully — human. This is why I support <i>Ear Hustle</i>.</p>"
-    citation: "René Vacchio Albee, <i>Ear Hustle</i> supporter"
-    image: img/staff/rene-albee.jpg
-    audio:
-      url: https://f.prxu.org/9003/8c095798-57a1-4fd4-bdd3-eeb16d73f0b4/a4ecc292-ad89-4765-8a61-a950618a1fcb.mp3
-      transcript: https://f.prxu.org/9003/8c095798-57a1-4fd4-bdd3-eeb16d73f0b4/transcripts/7dd782c9-179c-4006-9311-d6a2c3e8272e/III-Radiotopia-Rene-Vacchio-Albee.vtt
-  - text: "<p>Radiotopia — we've created a place where independent artists can be independent, but together. And, that by working together, we're building sustainability for this kind of work. It's an example of what we can accomplish when we work together and pool our resources and have each other's back.</p>"
-    citation: "Yooree Losordo, Director of Network Operations at Radiotopia from PRX"
-    image: img/staff/yooree.webp
-    audio:
-      url: https://f.prxu.org/9003/b12c00a1-b420-40b0-8769-981656ab5f33/54afe38f-8532-4481-a819-5d155582c9f2.mp3
-      transcript: https://f.prxu.org/9003/b12c00a1-b420-40b0-8769-981656ab5f33/transcripts/24e8bfd2-9b0d-4694-97f8-e339d765ad91/III-Radiotopia-Yooree-Losordo.vtt
+blocks:
+  - subhead: "PRX is rooted in audio-first storytelling, but we are building expertise that meets audiences where they are."
+  - text: |
+      As new audiences gravitate toward watching video podcasting, PRX developed our technical capabilities to match the next frontier in digital media. Over the past year, we’ve been building HLS video into [Dovetail](#TK), our podcast publishing and monetization platform. Creators will be able to upload a video file and automatically create both the streaming video version and an MP3 audio track for audio-only listeners. This means listeners on platforms with HLS capability, like Apple Podcasts, will be able to seamlessly switch between audio and video versions of podcast episodes.
+
+      PRX Productions’ first full leap into producing video podcasts comes from our partnership with HBO to create an [official companion podcast for _The Pitt_](#TK), the award-winning medical drama starring Noah Wyle. Hosted by medical journalist and pediatrician Dr. Alok Patel and culture critic Hunter Harris, the show pairs a rewatch format with a public interest angle to explore the realities behind the storylines. Far beyond two talking heads in front of a slatted wooden wall, we leaned into our expertise as creative professionals to create something worthy of the audience’s time — multiple cameras, location shoots, B-roll, and behind-the-scenes footage that has the same visual quality as our high audio standards.
+  - quote:
+      text: "<p>PRX having stakes in public radio, in documentary and narrative formats, understanding character and segmentation — that would transfer to the thing they wanted.</p>"
+      citation: "Jocelyn Gonzales, Executive Producer of PRX Productions"
+      image: img/staff/jocelyn.webp
+  - subhead: "We help partners build stronger brands across their entire digital presence, from social and newsletters to YouTube and beyond."
+  - text: |
+      PRX builds technology and produces bespoke content for partners, but we also are a trusted resource for independent and station producers in our portfolio who make their show tip to tail. This year, through a partnership with YouTube, five shows from across the PRX and Radiotopia portfolio — _Ear Hustle_, _Never Post_, _Proxy with Yowei Shaw_, _Sports in America with David Green_, and _But Why_ from Vermont Public — explored how video-first creators think about making, promoting, and growing their work and translated it for audio-first productions. The cohort also tested new tools for YouTube, helping the platform better serve audio creators and developing PRX insights into video podcasting.
+  - quote:
+      text: "<p>We have committed to really expanding the knowledge and the capacity for ecosystem growth for all of our shows. And so all of the things that we learn through programs like YouTube, through talking to YouTube and Apple and Spotify, is so that we just get better at being better partners for others. Because they come to us thinking that we have the answers, and it's our job to do the heavy lifting of that research, the heavy lifting of that learning, to support creators whose job it is just to think about the thing that they're making.</p>"
+      citation: "Stephanie Kuo, Vice President of Content &amp; Marketing"
+      image: img/staff/steph.webp
+  - text: |
+      The knowledge we build around video podcasting is shared across our entire portfolio with a goal of demystifying the platforms, keeping up with shifting culture, and building the confidence to stretch into new opportunities. When we explore video as the next frontier for creator growth, we can show producers what success looks like, what performs, and how the back end works. Our goal is to ensure audio-first creators feel competitive in an ecosystem that is increasingly prioritizing video.
 stats:
-  file: stats-radiotopia
-  title: "Radiotopia's Audio with Vision"
+  file: stats-expanding-visual-horizons
 ---
-
-Radiotopia shows are art in audio format. When creators come to Radiotopia, it’s because they have a spark — a passion that has potential to ignite the culture. Radiotopia treats listeners like the smart, intelligent audience they are. As AI-generated slop swarms platforms, the human need to tell stories and build personal connections faces existential threat in a commercial marketplace. Radiotopia is a bulwark for audio artists in an uncertain future.
-
-Creators have the freedom to explore and take risks with the backing of a public media institution that holds space for new sound. There are real business benefits to being in Radiotopia, but it’s also a stance on life — promoting community and collective action to lift each other up.

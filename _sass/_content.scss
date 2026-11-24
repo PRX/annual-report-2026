@@ -29,6 +29,18 @@
   max-width: 800px;
 }
 
+.content-subhead {
+  margin-top: 2.5rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.3;
+  color: $navy;
+
+  em, i {
+    font-style: normal;
+  }
+}
+
 prx-audio-quote {
   --prx-audio-quote--word--color--active: #{$violet-800};
   --prx-audio-quote--word--color--heard: #{$navy};
@@ -71,15 +83,9 @@ prx-audio-quote {
   padding-block: 3rem;
   
   p {
-    color: $white;
-    
-    a {color: $blue-100;}
-  }
+    color: $navy;
 
-  .content-quote {
-    p, a {
-      color: $navy;
-    }
+    a {color: $blue;}
   }
 
   .btn {

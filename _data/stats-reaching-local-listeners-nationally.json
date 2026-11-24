@@ -1,0 +1,47 @@
+[
+  {
+    "heading": "9",
+    "description": "marquee national shows were offered with no additional cost within the PRX broadcast portfolio",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "38,142",
+    "description": "pieces of programming were uploaded on the Exchange",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / span 3 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "99.9%",
+    "description": "of the US can hear PRX programming on their local public radio station",
+    "type": "this-year",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / span 2 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  }
+]

@@ -1,4 +1,6 @@
+{%- if include.title -%}
 <h2 class="stats--header">{{ include.title }}</h2>
+{%- endif -%}
 <div class="financials">
   {% assign sections_param = include.sections | default: "this-year,all-time" %}
   {% assign titles_param = include.titles | default: "This Year,All time" %}

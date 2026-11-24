@@ -81,7 +81,7 @@ collections:
       - welcome.html
   content:
     order:
-      - supporting-whole-artist.md
+      - supporting-whole-artists.md
       - championing-human-innovation.md
       - expanding-visual-horizons.md
       - scaffolding-sustainable-infrastructure.md

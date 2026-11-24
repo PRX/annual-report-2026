@@ -1,24 +1,30 @@
 ---
 content-type: "content"
-title: "Mission-Driven Productions"
+title: "Scaffolding Sustainable Infrastructure"
 link:
-  anchor: "productions"
-  label: "Mission-Driven Productions"
-  icon: "boom-box"
+  anchor: "scaffolding-sustainable-infrastructure"
+  label: "Sustainable Infrastructure"
+  icon: "microchip"
 color: "orange"
 menu-group: "1"
-intro: "<p><a href='https://productions.prx.org/'>PRX Productions</a>, our in-house unit, develops and produces among the most intrepid programs in the podcasting space. This year, our many projects included <a href='https://medium.com/prxofficial/silkroad-and-prx-launch-american-railroad-podcast-hosted-by-rhiannon-giddens-cfecbe629e14'><i>American Railroad</i></a>, hosted by acclaimed artist Rhiannon Giddens highlighting music and voices from the communities that built America’s railway systems, <a href='https://drraychristian.com/the-podcast'><i>What’s Ray Saying</i></a>, a show that  takes a deeper view of Black life in America through personal stories, and <a href='https://www.thespecialsaucepodcast.com/'><i>Special Sauce with Ed Levine</i></a> of Serious Eats with personal conversations about food and life.</p>"
-quotes:
-  - text: "<p>Our production unit is still oriented in that way of — there's a reason to know these things. It makes us better people, better citizens, better humans to have this knowledge. I still think that's a thread that runs through the production unit and is why we choose the projects we choose to work on. If we can't find that service element, at least to please ourselves as producers, we don't want to do it.</p>"
-    citation: "Jocelyn Gonzales, Executive Producer of PRX Productions"
-    image: img/staff/jocelyn.webp
-    audio:
-      url: https://f.prxu.org/9003/8bb290e5-b9de-4f8e-bc43-9c919539267f/28add821-a392-4548-b53f-3d33d7cc202f.mp3
-      transcript: https://f.prxu.org/9003/8bb290e5-b9de-4f8e-bc43-9c919539267f/transcripts/a4e39304-cd1a-4173-9189-e20a84a46f32/IV-Mission-Driven-Production-Jocelyn-Gonzales.vtt
+blocks:
+  - subhead: "PRX is creating shared, community-driven technology that makes the day-to-day work of local public media stations smoother and more financially viable."
+  - text: |
+      Leaning into quality and care without turning away from new innovations is at the core of PRX’s commitment to the next iteration of media — whether in content creation, product development, or work to support stations. This year, PRX provided noncommercial, community-focused stations free or low-cost access to our radio and podcast distribution technology — [Networks](#TK), the [Exchange](#TK), and [Dovetail](#TK). These platforms ensure stations around the country can send their unique reporting to regional partners with ease, bolster their budgets through earned revenue on their podcasts, and get the national programs listeners love on their local air without maneuvering through technical barriers.
+  - quote:
+      text: "<p>We want all of our tech to talk to everything. We are not building a closed system.</p>"
+      citation: "Chad Lampe, Director of Public Media Partnerships"
+  - text: |
+      PRX kept many of our services free for more than XX stations and X regional networks with the support of Public Media Infrastructure, a nonprofit coordinating services across the sector in the wake of federal defunding. Investment from PMI is supporting our tech team’s work to build an ad marketplace to help station producers earn easy revenue on their podcast content, through brand-safe, vetted advertisements. This allows for a network effect to sustain their work and listeners will never have their private data compromised for ad sales.
+  - subhead: "We are innovating to build infrastructure that serves all of public media, not just PRX."
+  - text: |
+      Growing an audience is just as important as monetizing one. This year, PRX launched [Dovetail Spots](#TK), which lets shows trade promotional messages with one another. A locally produced podcast can now reach listeners nationwide by swapping promos with like-minded shows, without a large marketing budget.
+
+      Part of our team’s job is to support public media’s future capacity. Many smaller stations have never had access to technology like dynamic ad injection — a Dovetail feature that allows stations to leverage new sponsors and fundraising opportunities across their catalogue, instead of uploading baked-in ads that quickly become outdated. Others have questions about how to bundle their digital assets — like newsletters, podcasts, and displays — to make the most impact. Some larger stations have relied on expensive commercial technology that isn't designed with public media in mind. PRX works with each partner on a person-to-person level to the benefit of the station, the system, and the listener tuning in at home.
+  - quote:
+      text: "<p>I wanted for us to view relationships with stations on the people level first, before the portfolio, or the profit. … So the way that manifests is that we are responsive. Supportive. Thoughtful. Helpful. Available. Resourceful. And fun.</p>"
+      citation: "Sean Nesbitt, Sr. Director of Public Media Strategy"
+      image: img/staff/sean.webp
 stats:
-  file: stats-productions
-  title: "PRX Productions Crafts Compelling Audio"
-
+  file: stats-scaffolding-sustainable-infrastructure
 ---
-
-PRX Productions projects are a mix of collaborations with exceptional talent and like-minded organizations. Our recent partners include the National Constitution Center, the Rock and Roll Hall of Fame, _Quanta Magazine_, the New York Botanical Garden, the Aspen Ideas Festival, the Food & Environment Reporting Network and _Smithsonian_ magazine. While completely diverse in content, each aims to expand listener awareness and understanding of an institution’s focus. What distinguishes PRX in the marketplace is our fundamental identity as an organization that prioritizes quality content in the public interest.

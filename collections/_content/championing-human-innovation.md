@@ -1,26 +1,32 @@
 ---
 content-type: "content"
-title: "Cultivating the Future Sound of Public Radio"
+title: "Championing Human Innovation"
 link:
-  anchor: "cultivating-sound"
-  label: "Future Sound of Public Radio"
-  icon: "audio-lines"
+  anchor: "championing-human-innovation"
+  label: "Championing Human Innovation"
+  icon: "mic"
 color: "teal"
 menu-group: "1"
-intro: "<p>PRX brings radio listeners some of the best examples of public media storytelling, from the thoughtful perspectives of <a href='http://www.theworld.org'><i>The World</i>’s international journalism</a>, to the definitional sound of <a href='https://www.thisamericanlife.org/'><i>This American Life</i></a> — which was celebrated at <a href='https://medium.com/prxofficial/2025-tribeca-festival-announces-this-american-life-and-the-memory-palace-live-events-1aaedf67e44f'>Tribeca Festival</a> in June for the show's decades of audio excellence. Just this year, investigative reporting from <a href='https://revealnews.org/'><i>Reveal</i></a> was a winner of the Healthcare Journalism Awards, DuPont-Columbia Awards, Edward R. Murrow Awards, National Magazine Awards, and a finalist for the Pulitzer Prize. (PRX has distributed half of the winners of the Pulitzers for audio reporting.) Our roster is beloved and foundational. We are also expanding its sound to meet the future of public radio.</p>"
-quotes:
-  - text: "<p>Can we make public media and the public media sensibility a little edgier and a little bit more contemporary and a little bit more in tune with the zeitgeist? And so, what do millennials as a generation want, then? What do Gen Z as a generation want? Not: What do age groups want? What do generations as cultural markers want? The future of public media doesn't have to sound exactly the same. It needs to uphold the same values, but it doesn't have to sound the same.</p>"
-    citation: "Stephanie Kuo, Vice President of Content"
-    image: img/staff/steph.webp
-    audio:
-      url: https://f.prxu.org/9003/3402253a-3fe8-4a44-9ef8-f5fda8d0a64c/7f755efc-9718-4970-bea4-4302f8cf2b78.mp3
-      transcript: https://f.prxu.org/9003/3402253a-3fe8-4a44-9ef8-f5fda8d0a64c/transcripts/0c844eb3-327c-4055-8b2d-9d71a4b95828/II-Cultivating-Future-Stephanie-Kuo.vtt
-  - text: "<p>The headline is: We are starting to define the next generation of audio on public radio. We are shaping the sound and the style and the talent that will become the future pillars of public radio. We have this new crop of talent that we're growing and that has been one of our big achievements this year.</p>"
-    citation: "Sean Nesbitt, Senior Director of Industry Partnerships"
-    image: img/staff/sean.webp
-    audio:
-      url: https://f.prxu.org/9003/fcf18867-55f5-49c4-a732-fcd3c42605b1/5803cd9a-dfb2-4b21-a01c-41ed77605eb7.mp3
-      transcript: https://f.prxu.org/9003/fcf18867-55f5-49c4-a732-fcd3c42605b1/transcripts/8d79eba5-c370-4181-8855-ee1c7743b89f/II-Cultivating-Future-Sean-Nesbitt.vtt
+blocks:
+  - subhead: "Listeners deserve stories made with care. Artists who make them deserve a partner who believes in the power of human creativity."
+  - text: |
+      PRX puts real people at the center of our work — supporting singular talents and building partnerships that bring new perspectives to audiences. A standout example in the last year has been podcaster and writer Avery Trufelman’s [_Articles of Interest_ from Radiotopia](#TK). Its latest miniseries “Gear,” captured the zeitgeist with its focus on the history of outdoor clothing and its connection to the military. It also sparked a buzz of its own, with dozens of features in press ranging from [_Harper's Bazaar_](#TK) and [_Vogue_](#TK) to [_The Observer_](#TK) and [_The Economist_](#TK).
+  - quote:
+      text: "<p><i>Articles of Interest</i>, ‘Gear.’ It probably got more publicity than anything we've ever done. The series just was so incredible … Avery, to me, is such a classic Radiotopia producer. She's at the tip of the cultural conversation.</p>"
+      citation: "Audrey Mardavich, Executive Producer of Radiotopia"
+      image: img/staff/audrey.webp
+  - text: |
+      _Articles of Interest_ is built on things no algorithm can manufacture: a distinctive voice, a point of view, deep reporting, and passion. Work like that takes time, independence, and a support infrastructure behind the scenes that allows the artist to focus on the story and craft behind the episode.
+  - quote:
+      text: "<p>[TK quote from Avery]</p>"
+  - subhead: "Content can now be made with a few clicks. Quality demands human expertise."
+  - text: |
+      PRX carries this sensibility of advancing human-centered media in the public interest across our work, whether it’s with one-person production teams or organizations guiding national discourse. Ahead of America’s 250th anniversary in July, PRX Productions worked with the National Constitution Center to create [_Pursuit: A Founders' Guide to Happiness_](#TK). The series explored what the founders really meant by "the pursuit of happiness,” and featured iconic documentarian Ken Burns, leading scholars, and talented actors bringing historical figures like George Washington and Phillis Wheatley to life.
+  - quote:
+      text: "<p>We could have just generated voices, people pretending to be George Washington or Phillis Wheatley, but our sensibility is that that would have been wrong. We would never choose to do that.</p>"
+      citation: "Genevieve Sponsler, Sr. Director of PRX Productions"
+  - text: |
+      Upholding human expertise is central, even as we explore the new frontiers technology is bringing us. This March, we started a journey with Fast Forward — an organization empowering nonprofits building tech and AI for humanity — to produce [_Otherwise_, a new podcast exploring AI that makes the world a little better](#TK), and the people who built it that way. We worked closely with Kevin Barenblat and Nicole Davenport, leaders at Fast Forward, to make their debut as podcast hosts, booked compelling guests, and ensured the production, press, and video presence were held to our quality standards.
+stats:
+  file: stats-championing-human-innovation
 ---
-
-PRX’s broadcast reach hit a milestone of 5.3 million listeners this year. We curate a broadcast portfolio that is responsive to audience and station needs, including programming that welcomes new generations of listeners. Offerings like KCRW’s _[The Sam Sanders Show](https://www.kcrw.com/culture/shows/the-sam-sanders-show)_ — one of the fastest-growing programs in the PRX portfolio — respond to a desire for content with sensibilities more attuned to the lighter side of life and serve as an antidote to news fatigue without losing public media values.

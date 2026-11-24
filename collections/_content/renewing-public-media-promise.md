@@ -1,24 +1,27 @@
 ---
 content-type: "content"
-title: "Technology Created in the Public Interest"
+title: "Renewing Public Media’s Promise"
 link:
-  anchor: "technology"
-  label: "Public Interest Technology"
-  icon: "rss"
+  anchor: "renewing-public-media-promise"
+  label: "Renewing Public Media’s Promise"
+  icon: "sprout"
 color: "violet"
 menu-group: "1"
-intro: "<p>This year marked a pivotal moment for <a href='https://dovetail.prx.org/'>PRX’s Dovetail platform</a>, evolving from a tool for close partners into a comprehensive platform capable of serving public media makers nationwide. Dovetail — a digital platform that allows both individual creators and large public radio stations to manage, monetize, and monitor metrics on their podcasts — is becoming the foundational digital audio infrastructure for media in the public interest.</p><p>Technology built by PRX is fundamentally different from the products commercial companies offer. Commercial platforms extract maximum revenue for themselves, but our explicit goal is to build sustainability, growth, and genuine support for the creators and stations that depend on us — while ensuring that our listeners are maximally protected with privacy-centric advertising. This means developing networks that serve the system rather than exploit it, and creating opportunities for cross-promotion that helps our entire community thrive.</p>"
-quotes:
-  - text: "<p>We, by being a nonprofit, have the ability to say, actually we want to draw a different line based on our values. Our goal is to pass money back to the producers in the system and actually keep as thin kind of budget of things as we can. That is an alignment of interests that because of being a nonprofit in the public media space and our well-declared mission around that, we're all on the same side within public media in a way that no other company that's building a platform for this can say that.</p>"
-    citation: "Andrew Kuklewicz, Chief Technology Officer"
-    image: img/staff/andrew.webp
-    audio:
-      url: https://f.prxu.org/9003/2706d3d9-ee7b-42d8-8dc6-58d2708c666a/d32cc65c-0e94-40bc-9ff6-7a9f087cbbdb.mp3
-      transcript: https://f.prxu.org/9003/2706d3d9-ee7b-42d8-8dc6-58d2708c666a/transcripts/1e8c1506-ced4-47e5-abfb-f1b8a3e22f8c/VI-Technology-Andrew-Kuklewicz-1.vtt
-stats:
-  file: stats-tech
-  title: "Dovetail Empowers Creators"
-
+blocks:
+  - subhead: "A new vision for public media requires work that is both relational and structural."
+  - text: |
+      Our industry is built on a truism that almost anyone can make a podcast. The medium has exploded in growth since its start two decades ago, but the voices most prominently elevated and well-compensated have too often excluded voices outside of the dominant culture. That is starting to change — and it is central to reimagining our civic space and the next iteration of media in the public interest.
+  - quote:
+      text: "<p>To disrupt a system, we needed to be intentional about the invitation, the space we prepared, and the experience once they arrived.</p>"
+      citation: "Byron Green, EVP People &amp; Culture"
+      image: img/staff/byron.webp
+  - text: |
+      PRX learning experiences, like the [Podcast Summits](#TK) we hosted with WABE in Atlanta and with Audio UK in London this year, bring in creators and knowledge holders from every corner of the podcast ecosystem. PRX is continually thinking about how the programs, convenings, and learning environments we create and host can be more equitable and accessible to the partners and communities we lift up and support. Expanding the conversation and allowing room for perspectives that build our empathy, curiosity, and humanity is at the core of PRX’s mission. It takes deliberate work to make the platforms, programs, and spaces we hold operate such that everyone who walks in feels invited, comfortable, and able to grow their craft.
+  - subhead: "PRX is committed to building a more open future."
+  - text: |
+      Public-interest media creates spaces where people engage with democracy more thoughtfully, with deeper understanding and a stronger sense of connection to one another. At a moment of profound political and global change, that work has never been more important. Evocative, engaging, empathetic content helps people make sense of the world around them and the systems that shape their daily lives. PRX recognizes our responsibility to help make the public media system in the United States sustainable and future oriented. It is an invigorating mission, and one PRX is uniquely positioned to take on.
+  - quote:
+      text: "<p>I think we have the opportunity to be in the vanguard again. And so the question is, can we take advantage of it? Can we work with people who help multi-dimensionalize public media while also creating the best content in the world? I think we can. I think we have the people internally to do that, and I think we work with creators who are oriented that way. We have built a business that is actually oriented towards experimentation. And I think that is allowing us to be part of whatever's next in a way that is as influential as what we have done in the past.</p>"
+      citation: "Jason Saldanha, CEO"
+      image: img/staff/jason.webp
 ---
-
-PRX has delivered billions of downloads to audiences worldwide. Stations depend on PRX because we have built our reputation through consistent service and unwavering principles. In an industry where platforms can disappear overnight or change direction without warning, PRX offers something increasingly rare: stability rooted in mission, not market whims.

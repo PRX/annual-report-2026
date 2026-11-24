@@ -13,14 +13,23 @@
   .press-group {
     flex-grow: 2;
     flex-basis: 0;
+  }
 
-    ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
-      grid-column-gap: 0;
-      grid-row-gap: 0;
-    }
+  .appearances-group {
+    flex-grow: 1;
+    margin-top: 2rem;
+  }
+
+  .awards-press-intro {
+    margin-top: 0;
+    font-size: 1rem;
+    font-style: italic;
+    color: $navy;
+  }
+
+  .press-title,
+  .appearance-suffix {
+    font-weight: normal;
   }
 
   h3 {
