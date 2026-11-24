@@ -1,0 +1,17 @@
+[
+  {
+    "heading": "0 to 470,000 views",
+    "description": "Sports in America from WHYY began with no subscribers or videos on YouTube, and in the span of a few months built a channel of nearly 3,000 subscribers and 50 videos. <a href=\"https://www.youtube.com/watch?v=FATY5l5dku0\">David’s interview with Olympian Alysa Liu</a> has nearly half a million views.",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  }
+]

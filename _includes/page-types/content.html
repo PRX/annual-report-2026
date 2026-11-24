@@ -1,4 +1,13 @@
 <section id="{{ content.link.anchor | default: content.slug }}" class="container content {{ content.color }}">
+  {%- if content.header-image -%}
+  <figure class="content-header-image">
+    {%- if content.header-image.alt != blank -%}
+    {% picture section-header-image {{ content.header-image.url }} --alt {{ content.header-image.alt }} %}
+    {%- else -%}
+    {% picture section-header-image {{ content.header-image.url }} %}
+    {%- endif -%}
+  </figure>
+  {%- endif -%}
   <div class="content-wrapper">
     <div class="content-header">
       <h2 class="content-title">
@@ -10,7 +19,8 @@
         {%- endif -%}
         {{ content.title }}
       </h2>
-      {%- if content.intro -%}
+      {%- if content.blocks -%}
+      {%- elsif content.intro -%}
       <div class="content-intro">
         <div class="content-intro--layout">
           <div class="content-content">
@@ -20,6 +30,29 @@
       </div>
       {%- endif -%}
     </div>
+    {%- if content.blocks -%}
+    {%- for block in content.blocks -%}
+      {%- if block.subhead -%}
+    <h3 class="content-subhead">{{ block.subhead }}</h3>
+      {%- elsif block.text -%}
+    <div class="content-main">
+      <div class="content-content">
+        {{ block.text | markdownify }}
+      </div>
+    </div>
+      {%- elsif block.quote -%}
+    <div class="content-quote">
+      {% include components/quote.html
+        text=block.quote.text
+        citation=block.quote.citation
+        image=block.quote.image
+        alt=block.quote.alt
+        audio=block.quote.audio
+      %}
+    </div>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- else -%}
     {%- if content.quotes[0] -%}
     {%- assign quote = content.quotes[0] -%}
     <div class="content-quote">
@@ -52,6 +85,7 @@
       %}
     </div>
     {%- endif -%}
+    {%- endif -%}
 
     {%- if content.featured-image -%}
     <figure class="content-featured-image">
@@ -70,7 +104,11 @@
   {%- endif -%}
 
   {%- if content.awards -%}
-    {% include components/awards.html %}
+    {% include components/awards.html
+      awards_intro=content.awards-intro
+      press_intro=content.press-intro
+      appearances_title=content.appearances-title
+    %}
   {%- endif -%}
 
   {%- if content.donor-list -%}

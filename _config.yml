@@ -78,23 +78,15 @@ collections_dir: collections
 collections:
   welcome:
     order:
-      - ceo-letter.html
+      - welcome.html
   content:
     order:
-      - transition-backbone.md
-      - empowering-stations.md
-      - cta-station-support.md
-      - cultivating-sound.md
-      - transition-storytelling.md
-      - radiotopia.md
-      - cta-donation.md
-      - productions.md
-      - building-peer-networks.md
-      - transition-producers-creators.md
-      - technology.md
-      - leading-values.md
-      - cta-donation-values.md
-      - resilience.md
+      - supporting-whole-artists.md
+      - championing-human-innovation.md
+      - expanding-visual-horizons.md
+      - scaffolding-sustainable-infrastructure.md
+      - reaching-local-listeners-nationally.md
+      - renewing-public-media-promise.md
       - awards-press.md
       - transition-supporters.md
       - donor-list.md

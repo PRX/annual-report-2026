@@ -3,6 +3,9 @@
   <aside class="awards-group" data-link-type="awards">
     <header>
       <h3>Awards Highlights</h3>
+      {%- if include.awards_intro -%}
+      <p class="awards-press-intro">{{ include.awards_intro }}</p>
+      {%- endif -%}
     </header>
     <ul>
       {% for award in site.data.awards %}
@@ -16,13 +19,36 @@
   <aside class="press-group" data-link-type="press">
     <header>
       <h3>Press Highlights</h3>
+      {%- if include.press_intro -%}
+      <p class="awards-press-intro">{{ include.press_intro }}</p>
+      {%- endif -%}
     </header>
     <ul>
       {% for press in site.data.press %}
       <li>
         <a href="{{ press.link }}">{{ press.label }}</a>
+        {%- if press.title %} <span class="press-title">“{{ press.title }}”</span>{% endif %}
       </li>
       {% endfor %}
     </ul>
   </aside>
 </div>
+
+{%- if site.data.appearances -%}
+<div class="awards-press-wrapper">
+  <aside class="appearances-group" data-link-type="appearances">
+    <header>
+      <h3>{{ include.appearances_title | default: "Major Appearances" }}</h3>
+    </header>
+    <ul>
+      {% for appearance in site.data.appearances %}
+      <li>
+        {%- if appearance.prefix %}{{ appearance.prefix }} {% endif -%}
+        <a href="{{ appearance.link }}">{{ appearance.label }}</a>
+        {%- if appearance.suffix %} <span class="appearance-suffix">{{ appearance.suffix }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>
+{%- endif -%}

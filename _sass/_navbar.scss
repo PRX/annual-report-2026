@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-image: linear-gradient(180deg,rgba(0, 58, 87, 0.9) 80%, transparent 100%);
+  /*background-image: linear-gradient(180deg,rgba(0, 58, 87, 0.9) 80%, transparent 100%);*/
 
   > nav {
     display: flex;
@@ -37,9 +37,9 @@
     }
   }
 
-  @media (min-width: 768px) {
+ /* @media (min-width: 768px) {
     background: linear-gradient(180deg,rgba(0, 58, 87, 1) 0%, rgba(0, 58, 87, 0) 80%);
-  }
+  }*/
 
 }
 
@@ -49,7 +49,7 @@
 
 .btn-menu {
   svg path {
-    stroke: $white;
+    stroke: $navy;
   }
 }
 

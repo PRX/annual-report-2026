@@ -1,12 +1,17 @@
 .hero {
   position: relative;
   min-height: 100svh;
+  isolation: isolate;
   display: grid;
   grid-template-columns: var(--nav-expanded) 1fr;
   place-content: center;
   place-items: center;
 
   background-image: linear-gradient(to right, transparent var(--nav-expanded), var(--section-color, transparent));
+
+  &.violet {
+    --section-color: #{$violet-100};
+  }
 
   & .content-wrapper {
     grid-column: 2;
@@ -16,7 +21,7 @@
   h1 {
     display: grid;
     line-height: 1;
-    color: $white;
+    color: $navy;
     margin: 0;
     padding: 0 3rem;
     text-align: left;
@@ -36,6 +41,8 @@
     svg {
       height: auto;
       width: 4ch;
+
+      path {fill: $navy;}
     }
   }
 
@@ -45,16 +52,16 @@
     font-size: clamp(3rem, calc(4.2vw + 0.5rem), 5rem);
     letter-spacing: -0.05em;
 
-    &.cyan {
-      --header-text-color: #{$cyan};
+    &.blue {
+      --header-text-color: #{$blue};
+    }
+
+    &.violet {
+      --header-text-color: #{$violet};
     }
 
     &.orange {
-      --header-text-color: #{$orange};
-    }
-
-    &.yellow {
-      --header-text-color: #{$yellow};
+      --header-text-color: #{$orange-700};
     }
   }
 }
@@ -66,29 +73,7 @@
   inset: 0;
   z-index: -1;
 
-  mask-image: linear-gradient(to top, transparent, black 50%);
-
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-
-    background-image:
-    linear-gradient(to top left, rgba($teal, 0.3), transparent, rgba($violet, 0.5)),
-    linear-gradient(rgba($black, 0.5) 0 0);
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-
-    background-color: rgba($navy, 0);
-
-    mask-image: linear-gradient(to bottom, black 35%, transparent);
-  }
+  mask-image: linear-gradient(to top, transparent, black 10%);
 
   img {
     animation-name: hero-card-image-zoom;

@@ -34,13 +34,13 @@
 
   svg {
     path {
-      stroke: $cyan;
+      stroke: $blue-500;
     }
   }
 
   &:link,
   &:visited {
-    color: $cyan;
+    color: $blue-500;
   }
 
   &.icon {

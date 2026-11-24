@@ -1,14 +1,9 @@
 ---
 content-type: "content-interlude"
+quotes:
+  - text: "<p>I love <i>Ear Hustle</i>! You and all the people you give a microphone to are the real heroes in the world. I’m a public defender and I love my clients and feel honored to have the privilege to advocate on their behalf. Nothing stops the heartbreak when they get incarcerated. <i>Ear Hustle</i> brings humanity to our injustice system and allows folks to express their love and tell their stories - it’s invaluable!</p>"
+    citation: "Lyndsay A., Reno, Nevada"
+  - text: "<p>Thank you for all of the impactful work your team does on a daily basis. You bring light to issues that hadn't been on my radar before, and ask the questions that I wish I could ask. What you do is deeply meaningful. Thanks a lot!</p>"
+    citation: "Mirian H., Leuven, Belgium"
 ---
-
-<blockquote class="content-quote">
-  <p>“PRX is a public media pioneer that brings meaningful audio journalism and storytelling into the lives of millions. While I always enjoyed a great podcast, until I joined the board, I had no idea of the role PRX played in the podcast space overall. PRX’s technical platform helped spur the marketplace of podcasting today. There would be no shows like <i>Serial</i>, <i>The Moth</i>, <i>Ear Hustle</i>, or <i>99% Invisible</i> without it.</p><p>As we've grown and matured, the marketplace looks to us for leadership: in quality, experimentation, monetization and, perhaps more important than anything, how we treat creators and the creative process.</p><p>PRX's goal is not to be the home for everyone, but to be the home for the best and most impactful content. This can't happen unless it's financially viable, something that becomes harder and harder in a world of commercial pressures. Podcasts are playing a critical role in public dialogue; having high-quality content that offers us a window to, and a better understanding of, the history and experience of others is more vital now than ever before.</p><p>I truly believe PRX is an indispensable component to public media that actually contributes to public good. <a href="https://prx.org/support-prx">You can learn more about PRX and make a donation here.</a>”</p>
-  <cite class="sc-prx-audio-quote sc-prx-audio-quote-s">
-    <span slot="citation">
-      Betsy Lehman, PRX Board Member
-      {% picture quote-image img/staff/betsy.jpg --alt Photo of Betsy Lehman  %}
-    </span>
-  </cite>
-</blockquote>
-
+  <p>None of the work PRX does would be possible without the nearly 10,000 individual donors and foundations who support our efforts to take the next steps in reimagining human-centered public-interest media over the last year. Thank you.</p>

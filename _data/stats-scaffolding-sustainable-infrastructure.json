@@ -1,0 +1,47 @@
+[
+  {
+    "heading": "90%",
+    "description": "of formerly CPB-supported stations use PRX products",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "500+",
+    "description": "station-based podcasts use Dovetail totaling 4M monthly downloads",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / span 3 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "32",
+    "description": "new station-based broadcast shows use automated delivery",
+    "type": "this-year",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / span 2 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  }
+]

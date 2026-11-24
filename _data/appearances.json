@@ -1,0 +1,28 @@
+[
+ {
+  "label": "Tribeca Festival",
+  "link": "https://tribecafilm.com/festival/podcasts",
+  "suffix": "in New York"
+ },
+ {
+  "label": "Aspen Ideas Festival",
+  "link": "https://www.aspenideas.org/speakers?year=2026",
+  "suffix": "in Colorado"
+ },
+ {
+  "label": "On Air Fest",
+  "link": "https://www.onairpresents.com/events/on-air-fest-2027",
+  "suffix": "in New York"
+ },
+ {
+  "label": "WBUR Festival",
+  "link": "https://www.wbur.org/inside/2026/04/29/the-full-wbur-festival-lineup-is-here",
+  "suffix": "in Boston"
+ },
+ {
+  "prefix": "American Alliance of Museums’",
+  "label": "MuseumExpo",
+  "link": "https://annualmeeting.aam-us.org/schedule/",
+  "suffix": "in Philadelphia"
+ }
+]

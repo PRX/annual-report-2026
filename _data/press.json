@@ -1,114 +1,78 @@
 [
  {
-   "label": "Nieman Lab",
-   "link": "https://www.niemanlab.org/2024/08/ear-hustles-new-audio-space-is-just-the-first-step-in-a-bigger-plan/"
+  "label": "TIME",
+  "link": "https://time.com/collections/100-best-podcasts/",
+  "title": "100 Best Podcasts of All Time"
  },
  {
-   "label": "The New Yorker",
-   "link": "https://www.newyorker.com/culture/the-new-yorker-interview/ira-glass-hears-it-all"
+  "label": "Bloomberg",
+  "link": "https://www.bloomberg.com/news/newsletters/2025-11-13/the-state-of-the-podcast-business-according-to-people-shaping-it",
+  "title": "The State of the Podcast Business, According to People Shaping It"
  },
  {
-   "label": "Fresh Air",
-   "link": "https://www.npr.org/2024/06/13/1197968039/40-acres-and-a-lie-alexia-fernandez-campbell"
+  "label": "Current",
+  "link": "https://current.org/2025/09/new-nonprofit-receives-funding-for-public-radio-distribution/",
+  "title": "New nonprofit receives funding for public radio distribution"
  },
  {
-   "label": "The Financial Times",
-   "link": "https://www.ft.com/content/61019016-ab00-458d-9436-62b593c4331c"
+  "label": "GQ",
+  "link": "https://www.gq.com/story/avery-trufelman-articles-of-interest-gorpcore-gear-interview",
+  "title": "Avery Trufelman Explains How Gorpcore Took Over Fashion"
  },
  {
-   "label": "Vogue",
-   "link": "https://www.vogue.com/article/best-podcasts-2024"
+  "label": "Los Angeles Times",
+  "link": "https://www.latimes.com/entertainment-arts/story/2026-01-26/ear-hustle-podcast-los-angeles-show",
+  "title": "'Ear Hustle' prison podcast helped get its host pardoned. Now see it live in L.A."
  },
  {
-   "label": "The New York Times",
-   "link": "https://www.nytimes.com/2025/05/24/arts/podcasts-oral-histories-fiasco.html"
+  "label": "The Boston Globe",
+  "link": "https://www.bostonglobe.com/2026/04/17/arts/ian-coss-massachusetts-podcasting/",
+  "title": "With ‘The Big Dig,’ Ian Coss puts Massachusetts at the center of podcasting"
  },
  {
-   "label": "The Atlantic",
-   "link": "https://www.theatlantic.com/culture/archive/2024/12/20-best-podcasts-2024/680853/"
+  "label": "The Economist",
+  "link": "https://www.economist.com/culture/2025/12/18/the-best-podcasts-of-2025",
+  "title": "The best podcasts of 2025"
  },
  {
-   "label": "HuffPost",
-   "link": "https://www.huffpost.com/entry/awe-walk-wonder-dacher-keltner_l_6602d955e4b0269c5d2d5d85?d_id=7472052"
+  "label": "Vulture",
+  "link": "https://www.vulture.com/article/best-narrative-podcasts-2025.html",
+  "title": "10 Narrative Podcasts We Loved This Year"
  },
  {
-   "label": "The Washington Post",
-   "link": "https://www.washingtonpost.com/entertainment/music/2024/10/31/willie-nelson-john-spong-texas-monthly-rankings/"
+  "label": "Rolling Stone",
+  "link": "https://www.rollingstone.com/culture/culture-lists/best-podcasts-2025-1235476123/final-thoughts-jerry-springer-1235476173/",
+  "title": "10 Best Podcasts of 2025"
  },
  {
-   "label": "The Week",
-   "link": "https://theweek.com/media/the-ultimate-podcast-list"
+  "label": "The New Yorker",
+  "link": "https://www.newyorker.com/culture/2025-in-review/the-best-podcasts-of-2025",
+  "title": "The Best Podcasts of 2025 | The New Yorker"
  },
  {
-   "label": "Mashable",
-   "link": "https://mashable.com/article/best-podcasts-2024"
+  "label": "WIRED",
+  "link": "https://www.wired.com/story/best-podcasts/",
+  "title": "71 Best Podcasts (2026): True Crime, Culture, Science, Fiction"
  },
  {
-   "label": "Vulture",
-   "link": "https://www.vulture.com/article/new-best-podcasts-2024.html"
+  "label": "The Guardian",
+  "link": "https://www.theguardian.com/tv-and-radio/ng-interactive/2025/dec/24/the-20-best-podcasts-of-2025",
+  "title": "The 20 best podcasts of 2025"
  },
  {
-   "label": "Esquire",
-   "link": "https://www.esquire.com/entertainment/g60114421/best-podcasts-2024/"
+  "label": "CNN",
+  "link": "https://www.cnn.com/2025/10/17/sport/swimming-lia-thomas-interview-intl"
  },
  {
-   "label": "TechCrunch",
-   "link": "https://techcrunch.com/2024/09/29/how-i-podcast-hyperfixeds-alex-goldman/"
+  "label": "NPR",
+  "link": "https://the1a.org/segments/the-palisades-and-eaton-fires-one-year-later/"
  },
  {
-   "label": "WIRED",
-   "link": "https://www.wired.com/story/pager-protocol-pager-explosion-ai-podcast/"
+  "label": "The Oprah Podcast",
+  "link": "https://www.youtube.com/watch?v=R_WDak-l9b4&t=3s"
  },
  {
-   "label": "The Boston Globe",
-   "link": "https://www.bostonglobe.com/2024/10/03/business/songs-movies-tv-shows-podcasts-books-boston-inspired-pop-culture/"
- },
- {
-   "label": "The Guardian",
-   "link": "https://www.theguardian.com/music/2024/nov/22/silkroad-ensemble-with-rhiannon-giddens-american-railroad-review-homage-to-a-forgotten-army-of-workers-transcontinental-railroad"
- },
- {
-   "label": "The Economist",
-   "link": "https://www.economist.com/culture/2024/11/15/the-best-podcasts-of-2024-as-picked-by-the-economist"
- },
- {
-   "label": "TIME",
-   "link": "https://time.com/7099008/best-podcasts-2024/"
- },
- {
-   "label": "Politico",
-   "link": "https://www.politico.com/news/2024/11/27/gavin-newsom-san-quentin-california-00192012"
- },
- {
-   "label": "Slate",
-   "link": "https://slate.com/news-and-politics/2024/11/thanksgiving-history-pilgrims-plymouth-rock.html"
- },
- {
-   "label": "Rolling Stone",
-   "link": "https://www.rollingstone.com/culture/culture-news/normal-gossip-podcast-new-hosts-1235199794/"
- },
- {
-   "label": "AV Club",
-   "link": "https://www.avclub.com/podcast-canon-appearances-no-feeling-is-final"
- },
- {
-   "label": "Blavity",
-   "link": "https://blavity.com/entertainment/loretta-devine-aunjanue-ellis-taylor-red-for-revolution"
- },
- {
-   "label": "The Hollywood Reporter",
-   "link": "https://www.hollywoodreporter.com/tv/tv-news/ben-stiller-adam-scott-andor-tony-gilroy-peabody-podcast-1236128862/"
- },
- {
-   "label": "IndieWire",
-   "link": "https://www.indiewire.com/features/interviews/tribeca-audio-storytelling-selections-davy-gardner-1235131097/"
- },
- {
-   "label": "Esquire",
-   "link": "https://www.esquire.com/style/big-black-book/a64424409/avery-trufelman-articles-of-interest/"
- },
- {
-   "label": "Good Tape",
-   "link": "https://goodtape.com/magazine/podcast-famous/"
+  "label": "The New York Times",
+  "link": "https://www.nytimes.com/2026/04/20/opinion/ai-religion-morality.html"
  }
 ]

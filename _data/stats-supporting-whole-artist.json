@@ -1,0 +1,47 @@
+[
+  {
+    "heading": "6",
+    "description": "PRX shows <a href=\"https://tribecafilm.com/press-center/press-releases/tribeca-festival-2026-announces-television-and-podcast-lineup\">featured at Tribeca Festival</a>: Song Exploder, Articles of Interest, Ear Hustle, Proxy, Scene on Radio, and Snap Judgment.",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "21",
+    "description": "active Radiotopia podcasts",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / span 3 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  },
+  {
+    "heading": "39.5 million",
+    "description": "downloads across the Radiotopia network",
+    "type": "this-year",
+    "color": "yellow",
+    "positions": [
+      {
+        "value": "auto / 1 / span 2 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "auto / 1 / span 1 / -1"
+      }
+    ]
+  }
+]
