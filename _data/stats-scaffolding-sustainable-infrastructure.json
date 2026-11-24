@@ -1,7 +1,7 @@
 [
   {
     "heading": "90%",
-    "description": "of community service grant stations use PRX products",
+    "description": "of formerly CPB-supported stations use PRX products",
     "type": "this-year",
     "color": "orange",
     "positions": [
@@ -16,7 +16,7 @@
   },
   {
     "heading": "500+",
-    "description": "station based podcasts use Dovetail totaling 4M monthly downloads",
+    "description": "station-based podcasts use Dovetail totaling 4M monthly downloads",
     "type": "this-year",
     "color": "cyan",
     "positions": [
@@ -31,7 +31,7 @@
   },
   {
     "heading": "32",
-    "description": "new station-based auto delivery programs",
+    "description": "new station-based broadcast shows use automated delivery",
     "type": "this-year",
     "color": "yellow",
     "positions": [

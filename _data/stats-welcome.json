@@ -1,0 +1,32 @@
+[
+  {
+    "heading": "$200M",
+    "description": "into the hands of independent creators and nonprofit media organizations since PRX founding",
+    "type": "this-year",
+    "color": "orange",
+    "positions": [
+      {
+        "value": "auto / 1 / span 4 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "1 / 7 / span 4 / -1"
+      }
+    ]
+  },
+  {
+    "heading": "208M",
+    "description": "downloads across the PRX portfolio in FY26 alone",
+    "type": "this-year",
+    "color": "cyan",
+    "positions": [
+      {
+        "value": "auto / 1 / span 3 / -1"
+      },
+      {
+        "breakpoint": "sm",
+        "value": "2 / 1 / span 3 / span 6"
+      }
+    ]
+  }
+]

@@ -7,4 +7,12 @@
       {{ welcome.content }}
     </div>
   </div>
+  {%- if welcome.stats -%}
+  <div class="stats">
+    {% include page-types/stats.html
+      title=welcome.stats.title
+      file=welcome.stats.file
+    %}
+  </div>
+  {%- endif -%}
 </section>

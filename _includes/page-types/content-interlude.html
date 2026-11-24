@@ -9,5 +9,13 @@
   {%- endif -%}
   <div class="content-wrapper{{- ' ' -}}{{- content.color if content.color -}}">
     {{ content.content }}
+    {%- for quote in content.quotes -%}
+    <div class="content-quote">
+      {% include components/quote.html
+        text=quote.text
+        citation=quote.citation
+      %}
+    </div>
+    {%- endfor -%}
   </div>
 </section>
