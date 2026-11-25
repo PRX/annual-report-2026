@@ -160,7 +160,8 @@ prx-audio-quote {
     border-bottom-right-radius: 20px;
     padding: 2.5rem 2rem 1rem;
     color: $navy;
-
+    
+    background-color: rgba($orange-100, 0.9);
     background-image: linear-gradient(to bottom, transparent, var(--section-color) 35%);
 
     &.violet {

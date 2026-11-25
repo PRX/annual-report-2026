@@ -1,5 +1,8 @@
 ---
 content-type: "content-interlude"
+featured-image:
+  url: img/content/placeholder-6.jpg
+  alt: ""
 quotes:
   - text: "<p>I love <i>Ear Hustle</i>! You and all the people you give a microphone to are the real heroes in the world. I’m a public defender and I love my clients and feel honored to have the privilege to advocate on their behalf. Nothing stops the heartbreak when they get incarcerated. <i>Ear Hustle</i> brings humanity to our injustice system and allows folks to express their love and tell their stories - it’s invaluable!</p>"
     citation: "Lyndsay A., Reno, Nevada"

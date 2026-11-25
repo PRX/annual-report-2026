@@ -93,6 +93,11 @@
   grid-area: quote;
 }
 
+.welcome > .stats {
+  grid-column: full-width;
+  width: 100%;
+}
+
 .welcome-content {
   grid-area: main;
 
